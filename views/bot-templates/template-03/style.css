@@ -1,0 +1,252 @@
+/*********************
+ball content wrapper
+**********************/
+.kbx-bot-container {
+    /*width: 370px;*/
+    display: table;
+    border-radius: 5px;
+    box-shadow: 0 5px 40px rgba(0, 0, 0, .10);
+    background: url("../../../assets/images/tpl-three-bg.jpg") no-repeat top right;
+    background-size: cover;
+}
+
+/******************************
+Woo Chat bot Message container
+*********************************/
+.kbx-bot-header h3 {
+    color: #ffffff;
+    font-size: 18px !important;
+    letter-spacing: 1px;
+
+}
+
+.kbx-bot-cart-container > div > p {
+    color: #ffffff;
+}
+
+ul.kbx-bot-messages-container {
+    padding: 0;
+    margin: 0;
+}
+
+ul.kbx-bot-messages-container > li:first-child .kbx-bot-agent {
+    display: none !important;
+}
+
+ul.kbx-bot-messages-container > li, .kbx-bot-agent-profile {
+    padding-left: 22px;
+    font-size: 14px;
+}
+
+ul.kbx-bot-messages-container > li .kbx-bot-comment-loader {
+    margin: 0 auto;
+    display: block;
+}
+
+ul.kbx-bot-messages-container > li > .kbx-bot-avatar, .kbx-bot-agent-profile .kbx-bot-widget-avatar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 2px solid rgba(255, 255, 255, 0.62);
+    background-color: #70aca9;
+    width: 40px;
+    height: 40px;
+}
+
+ul.kbx-bot-messages-container > li > .kbx-bot-agent, ul.kbx-bot-messages-container > li > .kbx-bot-paragraph, .kbx-bot-agent-profile .kbx-bot-bubble, .kbx-bot-widget-agent {
+    display: table;
+    position: relative;
+    padding-left: 30px;
+    padding-right: 10px;
+
+}
+
+ul.kbx-bot-messages-container > li > .kbx-bot-agent, .kbx-bot-widget-agent {
+    display: table !important;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    background-color: #ffffff;
+    font-size: 10px;
+    line-height: 12px;
+    border-radius: 10px 10px 0px 10px;
+}
+
+ul.kbx-bot-messages-container > li > .kbx-bot-paragraph, .kbx-bot-agent-profile .kbx-bot-bubble {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: #36d67c;
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 20px;
+    border-radius: 10px;
+}
+
+ul.kbx-bot-messages-container > li.kbx-bot-user-msg > .kbx-bot-paragraph {
+    background-color: #3a98d8;
+}
+
+ul.kbx-bot-messages-container > li.kbx-bot-user-msg::before {
+    left: 19px;
+}
+
+ul.kbx-bot-messages-container > li.kbx-bot-msg-flat {
+    color: #ffffff;
+}
+
+/*******************************
+Woo Chat bottom Tab Nav Editor
+**********************************/
+
+.kbx-bot-tab-nav {
+    background-color: rgba(0, 0, 0, 0.55);
+}
+
+.kbx-bot-tab-nav ul li a {
+    background-color: #000000;
+}
+
+.kbx-bot-tab-nav ul li:before {
+    background: linear-gradient(transparent 50%, rgba(0, 0, 0, 0.55) 50%);
+    background-size: 200%, 100%;
+    border-radius: 30px 30px 0 0;
+    height: 10px;
+}
+
+/*******************************
+Woo Chat bot Message Editor
+**********************************/
+
+.kbx-bot-editor-container {
+    border-top: 1px solid #808080;
+
+}
+
+.kbx-bot-editor-container input {
+    color: #ffffff;
+}
+
+.kbx-bot-editor-container input::placeholder {
+    color: #ffffff;
+}
+
+.kbx-bot-editor-container input::-webkit-input-placeholder {
+    color: #ffffff;
+}
+
+.kbx-bot-editor-container input::-moz-placeholder {
+    color: #ffffff;
+}
+
+.kbx-bot-editor-container input:-ms-input-placeholder {
+    color: #ffffff;
+}
+
+.kbx-bot-editor-container input:-moz-placeholder {
+    color: #ffffff;
+}
+
+/**************Tab Feature Product***************/
+.kbx-bot-agent-profile {
+    position: relative;
+    box-sizing: border-box;
+    word-wrap: break-word;
+    list-style: none;
+    display: block;
+    clear: both;
+    line-height: 150%;
+    min-height: 50px;
+    margin: 0 0 10px 0;
+}
+
+.kbx-bot-widget-title {
+    color: #ffffff;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+/****************************
+Loading
+*******************************/
+ul.kbx-bot-messages-container > li .kbx-bot-paragraph img.kbx-bot-comment-loader {
+    background-color: #fff;
+    padding: 1px;
+    border-radius: 5px;
+    margin: 0 auto;
+    display: block;
+}
+
+/************Link Item*************/
+span.kbx-bot-article-category,
+span.kbx-bot-support-items,
+span.kbx-bot-wildcard,
+span.kbx-bot-find-more,
+span.kbx-bot-suggest-email,
+span.kbx-bot-reset-btn,
+#kbx-bot-loadmore {
+    color: #0a2d2b;
+    background-image: linear-gradient(to right, #868afa 0%, #8fd3f4 51%, #2faafa 100%);
+    background-size: 200% auto;
+    box-shadow: 0 5px 5px #464646;
+    border: 1px solid #ffffff;
+}
+
+span.kbx-bot-article-category:hover,
+span.kbx-bot-support-items:hover,
+span.kbx-bot-wildcard:hover,
+span.kbx-bot-find-more:hover,
+span.kbx-bot-suggest-email:hover,
+span.kbx-bot-reset-btn:hover,
+#kbx-bot-loadmore:hover {
+    background-position: right center;
+    box-shadow: none;
+}
+
+/**************Tab Cart***************/
+.kbx-bot-cart-header {
+    background-color: #F5F5F5;
+}
+
+.kbx-bot-cart-single {
+    background-color: rgba(245, 245, 245, 0.4);
+    border-bottom: 1px solid #dddddd;
+}
+
+.kbx-bot-cart-single:nth-child(2n+1) {
+    background-color: rgba(245, 245, 245, 0.5);
+}
+
+.kbx-bot-cart-footer div a {
+    text-decoration: none;
+    background: #36d67c;
+    color: #ffffff;
+}
+
+.kbx-bot-cart-footer div a:hover, .kbx-bot-cart-footer div:last-child a {
+    background: #2fb96b;
+}
+
+.kbx-bot-widget-bubble {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/****** Product Details*******/
+.kbx-bot-product-details {
+    box-shadow: 0 0 10px #ccc;
+    background-color: #f5f5f5;
+}
+
+.kbx-bot-product-cart-button input[type="button"], #kbx-bot-loadmore {
+    border: 1px solid #36d67c;
+    background: #36d67c;
+    color: #ffffff;
+    box-shadow: 0 0 2px #999;
+}
+
+.kbx-bot-product-cart-button input[type="button"]:hover, #kbx-bot-loadmore:hover {
+    background: #2fb96b;
+    color: #ffffff;
+}

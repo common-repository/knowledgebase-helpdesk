@@ -1,0 +1,1412 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Knowledgebase Helpdesk\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-22 16:36+0600\n"
+"PO-Revision-Date: 2018-06-22 16:39+0600\n"
+"Last-Translator: admin <toriqul.qc@gmail.com>\n"
+"Language-Team: \n"
+"Language: en_GB\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 2.0.6\n"
+
+#: admin/kbx-admin-exporters.php:37
+msgid "Articles Export"
+msgstr ""
+
+#: admin/kbx-admin-exporters.php:38
+msgid "Export"
+msgstr ""
+
+#: admin/kbx-admin.php:23 kbx-help.php:44 kbx-help.php:47
+msgid "Settings"
+msgstr ""
+
+#: admin/kbx-admin.php:83
+#, php-format
+msgid ""
+"Thank you for using <a href=\"%1$s\" target=\"_blank\">Knowledgebase</a>! "
+"Please <a href=\"%2$s\" target=\"_blank\">rate us</a> on <a href=\"%2$s\" "
+"target=\"_blank\">WordPress.org</a>"
+msgstr ""
+
+#: admin/kbx-admin.php:122
+#, php-format
+msgid ""
+"Knowledgebase settings for the slug have not been registered. Please visit "
+"the <a href=\"%s\">admin page</a> to update and save the options."
+msgstr ""
+
+#: admin/kbx-bot-admin-ui.php:10
+msgid "HelpDesk Bot Control Panel"
+msgstr ""
+
+#: admin/kbx-bot-admin-ui.php:15
+msgid "Floating Articles Searching and Bot Option "
+msgstr ""
+
+#: admin/kbx-bot-admin-ui.php:17
+msgid "Knowledgebase HelpDesk Bot"
+msgstr ""
+
+#: admin/kbx-bot-admin-ui.php:18
+msgid "Floating Search Widget"
+msgstr ""
+
+#: admin/kbx-bot-admin-ui.php:27 admin/kbx-bot-admin-ui.php:31
+msgid "Disable Floating Search Widget"
+msgstr ""
+
+#: admin/kbx-bot-admin-ui.php:47
+msgid "GENERAL SETTINGS"
+msgstr ""
+
+#: admin/kbx-bot-admin-ui.php:54
+msgid "ICONS & THEMES"
+msgstr ""
+
+#: admin/kbx-bot-admin-ui.php:60
+msgid "LANGUAGE CENTER"
+msgstr ""
+
+#: admin/kbx-bot-admin-ui.php:69 admin/kbx-bot-admin-ui.php:73
+msgid "Disable HelpDesk Bot"
+msgstr ""
+
+#: admin/kbx-bot-admin-ui.php:77
+msgid " Disable HelpDesk Bot Icon Animation"
+msgstr ""
+
+#: admin/kbx-bot-admin-ui.php:81
+msgid "Disable HelpDesk Bot icon border animation"
+msgstr ""
+
+#: admin/kbx-bot-admin-ui.php:93
+msgid "Admin Email"
+msgstr ""
+
+#: admin/kbx-bot-admin-ui.php:99
+msgid "Support Email Subject"
+msgstr ""
+
+#: admin/kbx-bot-admin-ui.php:105
+msgid "Your email was sent successfully.Thanks!"
+msgstr ""
+
+#: admin/kbx-bot-admin-ui.php:116
+msgid "Override HelpDesk Bot Icon's Position"
+msgstr ""
+
+#: admin/kbx-bot-admin-ui.php:122 admin/kbx-bot-admin-ui.php:126
+msgid "120"
+msgstr ""
+
+#: admin/kbx-bot-admin-ui.php:133
+msgid "From Right In px"
+msgstr ""
+
+#: admin/kbx-bot-admin-ui.php:138
+msgid "From Bottom In px"
+msgstr ""
+
+#: admin/kbx-bot-admin-ui.php:143
+msgid "Number of Articles to show in search results. ('-1' for all products )."
+msgstr ""
+
+#: admin/kbx-bot-admin-ui.php:151
+msgid "Articles display orderby "
+msgstr ""
+
+#: admin/kbx-bot-admin-ui.php:153
+msgid "Orderby Product Title"
+msgstr ""
+
+#: admin/kbx-bot-admin-ui.php:154
+msgid "Orderby Date"
+msgstr ""
+
+#: admin/kbx-bot-admin-ui.php:155
+msgid "Orderby Modify"
+msgstr ""
+
+#: admin/kbx-bot-admin-ui.php:156
+msgid "Orderby Comments Number"
+msgstr ""
+
+#: admin/kbx-bot-admin-ui.php:157
+msgid "Orderby Random"
+msgstr ""
+
+#: admin/kbx-bot-admin-ui.php:158
+msgid "Orderby None"
+msgstr ""
+
+#: admin/kbx-bot-admin-ui.php:164
+msgid "Articles display order (ASCENDING or DESCENDING) "
+msgstr ""
+
+#: admin/kbx-bot-admin-ui.php:166
+msgid "ASCENDING"
+msgstr ""
+
+#: admin/kbx-bot-admin-ui.php:167
+msgid "DESCENDING"
+msgstr ""
+
+#: admin/kbx-bot-admin-ui.php:173
+msgid "<strong>Knowledge Based Help Desk Bot</strong> Loading Control Options"
+msgstr ""
+
+#: admin/kbx-bot-admin-ui.php:178
+msgid "Show on Home Page"
+msgstr ""
+
+#: admin/kbx-bot-admin-ui.php:199
+msgid "Show on Blog Posts"
+msgstr ""
+
+#: admin/kbx-bot-admin-ui.php:221
+msgid "Show on  Pages"
+msgstr ""
+
+#: admin/kbx-bot-admin-ui.php:231
+msgid "All Pages"
+msgstr ""
+
+#: admin/kbx-bot-admin-ui.php:238
+msgid "Selected Pages Only"
+msgstr ""
+
+#: admin/kbx-bot-admin-ui.php:261
+msgid "Show on WooCommerce"
+msgstr ""
+
+#: admin/kbx-bot-admin-ui.php:291
+msgid "HelpDesk Bot Icon"
+msgstr ""
+
+#: admin/kbx-bot-admin-ui.php:298
+msgid "Icon - 0"
+msgstr ""
+
+#: admin/kbx-bot-admin-ui.php:306
+msgid "Icon - 1"
+msgstr ""
+
+#: admin/kbx-bot-admin-ui.php:311
+msgid "Icon - 2"
+msgstr ""
+
+#: admin/kbx-bot-admin-ui.php:316
+msgid "Icon - 3"
+msgstr ""
+
+#: admin/kbx-bot-admin-ui.php:322
+msgid "Icon - 4"
+msgstr ""
+
+#: admin/kbx-bot-admin-ui.php:329
+msgid "Icon - 5"
+msgstr ""
+
+#: admin/kbx-bot-admin-ui.php:334
+msgid "Icon - 6"
+msgstr ""
+
+#: admin/kbx-bot-admin-ui.php:339
+msgid "Icon - 7"
+msgstr ""
+
+#: admin/kbx-bot-admin-ui.php:344
+msgid "Icon - 8"
+msgstr ""
+
+#: admin/kbx-bot-admin-ui.php:349
+msgid "Icon -9"
+msgstr ""
+
+#: admin/kbx-bot-admin-ui.php:354
+msgid "Icon - 10"
+msgstr ""
+
+#: admin/kbx-bot-admin-ui.php:369
+msgid "Custom Icon"
+msgstr ""
+
+#: admin/kbx-bot-admin-ui.php:378
+msgid " Upload custom Icon"
+msgstr ""
+
+#: admin/kbx-bot-admin-ui.php:383
+msgid "Upload Icon"
+msgstr ""
+
+#: admin/kbx-bot-admin-ui.php:393
+msgid " HelpDesk Bot Agent Image"
+msgstr ""
+
+#: admin/kbx-bot-admin-ui.php:401
+msgid "Default Agent"
+msgstr ""
+
+#: admin/kbx-bot-admin-ui.php:417
+msgid "Custom Agent"
+msgstr ""
+
+#: admin/kbx-bot-admin-ui.php:424
+msgid "Custom Agent Icon"
+msgstr ""
+
+#: admin/kbx-bot-admin-ui.php:429
+msgid "Upload  Agent Icon"
+msgstr ""
+
+#: admin/kbx-bot-admin-ui.php:438
+msgid "HelpDesk Bot Themes"
+msgstr ""
+
+#: admin/kbx-bot-admin-ui.php:449
+msgid "Theme Basic"
+msgstr ""
+
+#: admin/kbx-bot-admin-ui.php:458
+msgid "Theme One"
+msgstr ""
+
+#: admin/kbx-bot-admin-ui.php:467
+msgid "Theme Two"
+msgstr ""
+
+#: admin/kbx-bot-admin-ui.php:476
+msgid "Theme Three"
+msgstr ""
+
+#: admin/kbx-bot-admin-ui.php:485
+msgid " Custom Backgroud"
+msgstr ""
+
+#: admin/kbx-bot-admin-ui.php:493
+msgid ""
+"Change the Kbx HelpDesk Bot message board background for Theme 2 and Theme 3."
+msgstr ""
+
+#: admin/kbx-bot-admin-ui.php:501
+msgid ""
+"Upload WoowBot message board background (Ideal image size 376px X 688px)."
+msgstr ""
+
+#: admin/kbx-bot-admin-ui.php:513
+msgid "Upload HelpDesk Bot background."
+msgstr ""
+
+#: admin/kbx-bot-admin-ui.php:517
+msgid "Custom message board background"
+msgstr ""
+
+#: admin/kbx-bot-admin-ui.php:527
+msgid ""
+"You can add multiple variations of messages for each node. They will be used "
+"randomly and give an apperance of more human like responses."
+msgstr ""
+
+#: admin/kbx-bot-admin-ui.php:530
+msgid "Ge"
+msgstr ""
+
+#: admin/kbx-bot-admin-ui.php:531
+msgid "Support"
+msgstr ""
+
+#: admin/kbx-bot-admin-ui.php:532
+msgid "Stop Words"
+msgstr ""
+
+#: admin/kbx-bot-admin-ui.php:533 admin/kbx-bot-admin-ui.php:968
+msgid "System Keywords"
+msgstr ""
+
+#: admin/kbx-bot-admin-ui.php:539
+msgid "General Language Settings"
+msgstr ""
+
+#: admin/kbx-bot-admin-ui.php:543
+msgid "Message setting for <strong>Identity </strong>"
+msgstr ""
+
+#: admin/kbx-bot-admin-ui.php:545
+msgid "Your Company or Website Name"
+msgstr ""
+
+#: admin/kbx-bot-admin-ui.php:551
+msgid "Agent name"
+msgstr ""
+
+#: admin/kbx-bot-admin-ui.php:557
+msgid "Shopper demo name"
+msgstr ""
+
+#: admin/kbx-bot-admin-ui.php:564
+msgid "Send a Message"
+msgstr ""
+
+#: admin/kbx-bot-admin-ui.php:570
+msgid "Hello"
+msgstr ""
+
+#: admin/kbx-bot-admin-ui.php:576
+msgid "YES"
+msgstr ""
+
+#: admin/kbx-bot-admin-ui.php:582
+msgid "NO"
+msgstr ""
+
+#: admin/kbx-bot-admin-ui.php:588
+msgid "OR"
+msgstr ""
+
+#: admin/kbx-bot-admin-ui.php:594
+msgid "Sorry"
+msgstr ""
+
+#: admin/kbx-bot-admin-ui.php:600
+msgid "Read the details here."
+msgstr ""
+
+#: admin/kbx-bot-admin-ui.php:606
+msgid "Read More"
+msgstr ""
+
+#: admin/kbx-bot-admin-ui.php:612 views/general/single-kbx_knowledgebase.php:46
+#: views/general/taxonomy-kbx_category.php:45
+msgid "You do not have permission to this section."
+msgstr ""
+
+#: admin/kbx-bot-admin-ui.php:627
+msgid " Message setting for <strong>Greetings: </strong>"
+msgstr ""
+
+#: admin/kbx-bot-admin-ui.php:706
+msgid "<strong>Knowledge Based Help Desk </strong> Atricles & Categories"
+msgstr ""
+
+#: admin/kbx-bot-admin-ui.php:786
+msgid "Support Language Settings"
+msgstr ""
+
+#: admin/kbx-bot-admin-ui.php:898
+msgid "Stop Words Settings Options"
+msgstr ""
+
+#: admin/kbx-bot-admin-ui.php:927
+msgid "English"
+msgstr ""
+
+#: admin/kbx-bot-admin-ui.php:928
+msgid "Arabic"
+msgstr ""
+
+#: admin/kbx-bot-admin-ui.php:929
+msgid "Bulgarian"
+msgstr ""
+
+#: admin/kbx-bot-admin-ui.php:930
+msgid "Czech"
+msgstr ""
+
+#: admin/kbx-bot-admin-ui.php:931
+msgid "Catalan"
+msgstr ""
+
+#: admin/kbx-bot-admin-ui.php:932
+msgid "Danish"
+msgstr ""
+
+#: admin/kbx-bot-admin-ui.php:933
+msgid "Dutch"
+msgstr ""
+
+#: admin/kbx-bot-admin-ui.php:934
+msgid "Finnish"
+msgstr ""
+
+#: admin/kbx-bot-admin-ui.php:935
+msgid "French"
+msgstr ""
+
+#: admin/kbx-bot-admin-ui.php:936
+msgid "German"
+msgstr ""
+
+#: admin/kbx-bot-admin-ui.php:937
+msgid "Hindi"
+msgstr ""
+
+#: admin/kbx-bot-admin-ui.php:938
+msgid "ungarian"
+msgstr ""
+
+#: admin/kbx-bot-admin-ui.php:939
+msgid "Indonesian"
+msgstr ""
+
+#: admin/kbx-bot-admin-ui.php:940
+msgid "Italian"
+msgstr ""
+
+#: admin/kbx-bot-admin-ui.php:941
+msgid "Norwegian"
+msgstr ""
+
+#: admin/kbx-bot-admin-ui.php:942
+msgid "Polish"
+msgstr ""
+
+#: admin/kbx-bot-admin-ui.php:943
+msgid "Portuguese"
+msgstr ""
+
+#: admin/kbx-bot-admin-ui.php:944
+msgid "Romanian"
+msgstr ""
+
+#: admin/kbx-bot-admin-ui.php:945
+msgid "Russian"
+msgstr ""
+
+#: admin/kbx-bot-admin-ui.php:946
+msgid "Slovak"
+msgstr ""
+
+#: admin/kbx-bot-admin-ui.php:947
+msgid "Spanish"
+msgstr ""
+
+#: admin/kbx-bot-admin-ui.php:948
+msgid "Swedish"
+msgstr ""
+
+#: admin/kbx-bot-admin-ui.php:949
+msgid "Turkish"
+msgstr ""
+
+#: admin/kbx-bot-admin-ui.php:950
+msgid "Ukrainian"
+msgstr ""
+
+#: admin/kbx-bot-admin-ui.php:957
+msgid "Stop Words."
+msgstr ""
+
+#: admin/kbx-bot-admin-ui.php:973
+msgid "<strong>Start</strong> Keyword"
+msgstr ""
+
+#: admin/kbx-bot-admin-ui.php:979
+msgid "FAQ"
+msgstr ""
+
+#: admin/kbx-bot-admin-ui.php:985
+msgid "<strong>Support</strong> Keyword"
+msgstr ""
+
+#: admin/kbx-bot-admin-ui.php:991
+msgid "<strong>Converstion History Clear </strong> Keyword"
+msgstr ""
+
+#: admin/kbx-bot-admin-ui.php:1035
+msgid "Reset all options to Default"
+msgstr ""
+
+#: admin/kbx-bot-admin-ui.php:1039
+msgid "Save Settings"
+msgstr ""
+
+#: admin/kbx-bot-admin.php:12
+msgid "Knowledgebase Bot"
+msgstr ""
+
+#: admin/kbx-bot-admin.php:13
+msgid "Bot Settings"
+msgstr ""
+
+#: admin/kbx-save-settings.php:42
+msgid ""
+"Settings have been reset to their default values. Reload this page to view "
+"the updated settings"
+msgstr ""
+
+#: admin/kbx-save-settings.php:100
+msgid "Settings updated."
+msgstr ""
+
+#: admin/kbx-settings-page.php:30
+msgid "Knowledgebase Settings"
+msgstr ""
+
+#: admin/kbx-settings-page.php:71 includes/kbx-floating-search-widget.php:24
+msgid "Submit"
+msgstr ""
+
+#: admin/kbx-settings-page.php:80
+msgid "Do you really want to reset all these settings to their default values?"
+msgstr ""
+
+#: admin/kbx-settings-page.php:82
+msgid "Reset"
+msgstr ""
+
+#: admin/kbx-settings-page.php:122
+msgid "General"
+msgstr ""
+
+#: admin/kbx-settings-page.php:123
+msgid "Styles"
+msgstr ""
+
+#: admin/kbx-settings-page.php:124
+msgid "Others"
+msgstr ""
+
+#: admin/kbx-shortcode-generator.php:53
+msgid "Knowledgebase Helpdesk: Shortcode Generator"
+msgstr ""
+
+#: admin/kbx-shortcode-generator.php:58
+msgid "Shortcode for"
+msgstr ""
+
+#: admin/kbx-shortcode-generator.php:60
+msgid "Please Select Option"
+msgstr ""
+
+#: admin/kbx-shortcode-generator.php:61
+msgid "Knowledgebase Main"
+msgstr ""
+
+#: admin/kbx-shortcode-generator.php:62 kbx-help.php:60
+msgid "Knowledgebase Articles"
+msgstr ""
+
+#: admin/kbx-shortcode-generator.php:63
+msgid "Knowledgebase FAQ"
+msgstr ""
+
+#: admin/kbx-shortcode-generator.php:64
+msgid "Knowledgebase Glossary"
+msgstr ""
+
+#: admin/kbx-shortcode-generator.php:65
+msgid "Knowledgebase Chatbot"
+msgstr ""
+
+#: admin/kbx-shortcode-generator.php:66
+msgid "Knowledgebase Mobile App"
+msgstr ""
+
+#: admin/kbx-shortcode-generator.php:79
+msgid "Showcase Style"
+msgstr ""
+
+#: admin/kbx-shortcode-generator.php:82
+msgid "All Section"
+msgstr ""
+
+#: admin/kbx-shortcode-generator.php:90
+msgid "Show Search Bar"
+msgstr ""
+
+#: admin/kbx-shortcode-generator.php:93 admin/kbx-shortcode-generator.php:103
+msgid "Yes"
+msgstr ""
+
+#: admin/kbx-shortcode-generator.php:95 admin/kbx-shortcode-generator.php:106
+msgid "No"
+msgstr ""
+
+#: admin/kbx-shortcode-generator.php:100
+msgid "Show Pagination"
+msgstr ""
+
+#: admin/kbx-shortcode-generator.php:111
+msgid "Order By"
+msgstr ""
+
+#: admin/kbx-shortcode-generator.php:114
+msgid "Date"
+msgstr ""
+
+#: admin/kbx-shortcode-generator.php:115
+#: includes/export/class-kbx-article-csv-exporter.php:59
+msgid "ID"
+msgstr ""
+
+#: admin/kbx-shortcode-generator.php:116
+#: includes/export/class-kbx-article-csv-exporter.php:62
+msgid "Title"
+msgstr ""
+
+#: admin/kbx-shortcode-generator.php:117
+msgid "Date Modified"
+msgstr ""
+
+#: admin/kbx-shortcode-generator.php:118
+msgid "Random"
+msgstr ""
+
+#: admin/kbx-shortcode-generator.php:119
+msgid "Menu Order"
+msgstr ""
+
+#: admin/kbx-shortcode-generator.php:125
+msgid "Order"
+msgstr ""
+
+#: admin/kbx-shortcode-generator.php:128
+msgid "Ascending"
+msgstr ""
+
+#: admin/kbx-shortcode-generator.php:129
+msgid "Descending"
+msgstr ""
+
+#: admin/kbx-shortcode-generator.php:135
+msgid "Limit"
+msgstr ""
+
+#: admin/kbx-shortcode-generator.php:139
+msgid "Numric Limit: e.g. 10"
+msgstr ""
+
+#: includes/export/admin-articles-export-page.php:35
+#: includes/kbx-load-assets.php:118
+msgid "Export Articles"
+msgstr ""
+
+#: includes/export/admin-articles-export-page.php:40
+msgid "Export products to a CSV file"
+msgstr ""
+
+#: includes/export/admin-articles-export-page.php:41
+msgid ""
+"This tool allows you to generate and download a CSV file containing a list "
+"of all articles."
+msgstr ""
+
+#: includes/export/admin-articles-export-page.php:48
+msgid "Which columns should be exported?"
+msgstr ""
+
+#: includes/export/class-kbx-article-csv-exporter.php:60
+msgid "Publish Date"
+msgstr ""
+
+#: includes/export/class-kbx-article-csv-exporter.php:61
+msgid "Author"
+msgstr ""
+
+#: includes/export/class-kbx-article-csv-exporter.php:63
+msgid "Published"
+msgstr ""
+
+#: includes/export/class-kbx-article-csv-exporter.php:64
+msgid "Short description"
+msgstr ""
+
+#: includes/export/class-kbx-article-csv-exporter.php:65
+msgid "Description"
+msgstr ""
+
+#: includes/export/class-kbx-article-csv-exporter.php:66
+#: includes/kbx-post-type.php:130 includes/kbx-post-type.php:132
+msgid "Sections"
+msgstr ""
+
+#: includes/export/class-kbx-article-csv-exporter.php:67
+#: includes/kbx-post-type.php:172 includes/kbx-post-type.php:174
+msgid "Tags"
+msgstr ""
+
+#: includes/export/class-kbx-article-csv-exporter.php:68
+msgid "Parent"
+msgstr ""
+
+#: includes/export/class-kbx-article-csv-exporter.php:69
+msgid "Article Slug"
+msgstr ""
+
+#: includes/export/class-kbx-article-csv-exporter.php:70
+msgid "Comments Status"
+msgstr ""
+
+#: includes/export/class-kbx-article-csv-exporter.php:71
+msgid "Upvote Count"
+msgstr ""
+
+#: includes/export/class-kbx-article-csv-exporter.php:72
+msgid "Ranking"
+msgstr ""
+
+#: includes/export/class-kbx-article-csv-exporter.php:73
+msgid "Views"
+msgstr ""
+
+#: includes/export/class-kbx-article-csv-exporter.php:74
+msgid "Glossary Term"
+msgstr ""
+
+#: includes/import/class-rscsv_import_post_helper.php:74
+msgid "Provided Post ID not found."
+msgstr ""
+
+#: includes/import/class-rscsv_import_post_helper.php:196
+#: includes/import/class-rscsv_import_post_helper.php:216
+#: includes/import/class-rscsv_import_post_helper.php:238
+#: includes/import/class-rscsv_import_post_helper.php:264
+#: includes/import/class-rscsv_import_post_helper.php:279
+#: includes/import/class-rscsv_import_post_helper.php:295
+#: includes/import/class-rscsv_import_post_helper.php:393
+msgid "WP_Post object is not set."
+msgstr ""
+
+#: includes/import/class-rscsv_import_post_helper.php:423
+msgid "Could not get remote file."
+msgstr ""
+
+#: includes/import/kbx-admin-importers.php:71
+msgid "Article Importer"
+msgstr ""
+
+#: includes/import/kbx-admin-importers.php:71
+msgid "Import articles, categories, tags, from csv file."
+msgstr ""
+
+#: includes/import/kbx-admin-importers.php:76
+msgid "Knowledgebase Articles Importer"
+msgstr ""
+
+#: includes/import/kbx-admin-importers.php:86
+msgid "Choose a CSV (.csv) file to upload, then click Upload file and import."
+msgstr ""
+
+#: includes/import/kbx-admin-importers.php:87
+msgid ""
+"Excel-style CSV file is unconventional and not recommended. LibreOffice has "
+"enough export options and recommended for most users."
+msgstr ""
+
+#: includes/import/kbx-admin-importers.php:88
+msgid "Requirements:"
+msgstr ""
+
+#: includes/import/kbx-admin-importers.php:90
+msgid "Select UTF-8 as charset."
+msgstr ""
+
+#: includes/import/kbx-admin-importers.php:91
+#, php-format
+msgid "You must use field delimiter as \"%s\""
+msgstr ""
+
+#: includes/import/kbx-admin-importers.php:92
+msgid "You must quote all text cells."
+msgstr ""
+
+#: includes/import/kbx-admin-importers.php:94
+msgid "Export Knowledgebase Articles"
+msgstr ""
+
+#: includes/import/kbx-admin-importers.php:94
+msgid " as csv before import"
+msgstr ""
+
+#: includes/import/kbx-admin-importers.php:104
+#: includes/import/kbx-admin-importers.php:108
+msgid "Sorry, there has been an error."
+msgstr ""
+
+#: includes/import/kbx-admin-importers.php:109
+#, php-format
+msgid ""
+"The export file could not be found at <code>%s</code>. It is likely that "
+"this was caused by a permissions problem."
+msgstr ""
+
+#: includes/import/kbx-admin-importers.php:181
+msgid "Failed to open file."
+msgstr ""
+
+#: includes/import/kbx-admin-importers.php:209
+#, php-format
+msgid "Invalid post type \"%s\"."
+msgstr ""
+
+#: includes/import/kbx-admin-importers.php:212
+msgid "Note: Please include post_type value if that is possible."
+msgstr ""
+
+#: includes/import/kbx-admin-importers.php:226
+#, php-format
+msgid ""
+"The post type value from your csv file does not match the existing data in "
+"your database. post_id: %d, post_type(csv): %s, post_type(db): %s"
+msgstr ""
+
+#: includes/import/kbx-admin-importers.php:475
+#, php-format
+msgid "Processing \"%s\" done."
+msgstr ""
+
+#: includes/import/kbx-admin-importers.php:494
+msgid "All Done. Go to "
+msgstr ""
+
+#: includes/import/kbx-admin-importers.php:494
+msgid "Knowledgebase Articles List"
+msgstr ""
+
+#: includes/kbx-ajax-search-question.php:57
+msgid "No result found."
+msgstr ""
+
+#: includes/kbx-bot.php:33
+msgid "<h2>No KbxBot Theme Found!</h2>"
+msgstr ""
+
+#: includes/kbx-bot.php:116
+msgid "<h2>No KbxBot ShortCode Theme Found!</h2>"
+msgstr ""
+
+#: includes/kbx-bot.php:146
+msgid "<h2>No WoowBot Theme Found!</h2>"
+msgstr ""
+
+#: includes/kbx-bot.php:305 includes/kbx-bot.php:410
+msgid "Load More"
+msgstr ""
+
+#: includes/kbx-floating-search-widget.php:21
+msgid "Search the knowledge base"
+msgstr ""
+
+#: includes/kbx-floating-search-widget.php:38
+msgid "No results found for "
+msgstr ""
+
+#: includes/kbx-floating-search-widget.php:43
+msgid "Type your search string. Minimum 4 characters are required."
+msgstr ""
+
+#: includes/kbx-floating-search-widget.php:50
+msgid "close me"
+msgstr ""
+
+#: includes/kbx-floating-search-widget.php:59 kbx-help.php:13
+msgid "Help"
+msgstr ""
+
+#: includes/kbx-load-assets.php:117
+msgid "Import Articles"
+msgstr ""
+
+#: includes/kbx-post-type.php:25 includes/kbx-post-type.php:26
+#: includes/kbx-post-type.php:51 kbx-help.php:47
+msgid "Knowledgebase"
+msgstr ""
+
+#: includes/kbx-post-type.php:27
+msgid "Knowledgebase Pro"
+msgstr ""
+
+#: includes/kbx-post-type.php:28
+msgid "Knowledgebase Article"
+msgstr ""
+
+#: includes/kbx-post-type.php:29
+msgid "Parent Article"
+msgstr ""
+
+#: includes/kbx-post-type.php:30
+msgid "All Articles"
+msgstr ""
+
+#: includes/kbx-post-type.php:31 includes/kbx-post-type.php:32
+msgid "Add New Article"
+msgstr ""
+
+#: includes/kbx-post-type.php:33
+msgid "New Article"
+msgstr ""
+
+#: includes/kbx-post-type.php:34
+msgid "Edit Article"
+msgstr ""
+
+#: includes/kbx-post-type.php:35
+msgid "Update Article"
+msgstr ""
+
+#: includes/kbx-post-type.php:36
+msgid "View Article"
+msgstr ""
+
+#: includes/kbx-post-type.php:37
+msgid "Search Article"
+msgstr ""
+
+#: includes/kbx-post-type.php:38
+msgid "Not found"
+msgstr ""
+
+#: includes/kbx-post-type.php:39
+msgid "Not found in Trash"
+msgstr ""
+
+#: includes/kbx-post-type.php:50
+msgid "kbx_knowledgebase"
+msgstr ""
+
+#: includes/kbx-post-type.php:131
+msgid "Section"
+msgstr ""
+
+#: includes/kbx-post-type.php:133
+msgid "All Sections"
+msgstr ""
+
+#: includes/kbx-post-type.php:134
+msgid "Parent Section"
+msgstr ""
+
+#: includes/kbx-post-type.php:135
+msgid "Parent Section:"
+msgstr ""
+
+#: includes/kbx-post-type.php:136
+msgid "New Section Name"
+msgstr ""
+
+#: includes/kbx-post-type.php:137
+msgid "Add New Section"
+msgstr ""
+
+#: includes/kbx-post-type.php:138
+msgid "Edit Section"
+msgstr ""
+
+#: includes/kbx-post-type.php:139
+msgid "Update Section"
+msgstr ""
+
+#: includes/kbx-post-type.php:140
+msgid "View Section"
+msgstr ""
+
+#: includes/kbx-post-type.php:141
+msgid "Separate sections with commas"
+msgstr ""
+
+#: includes/kbx-post-type.php:142
+msgid "Add or remove sections"
+msgstr ""
+
+#: includes/kbx-post-type.php:143
+msgid "Choose from the most used"
+msgstr ""
+
+#: includes/kbx-post-type.php:144
+msgid "Popular Sections"
+msgstr ""
+
+#: includes/kbx-post-type.php:145
+msgid "Search Sections"
+msgstr ""
+
+#: includes/kbx-post-type.php:146
+msgid "Not Found"
+msgstr ""
+
+#: includes/kbx-post-type.php:147
+msgid "No sections"
+msgstr ""
+
+#: includes/kbx-post-type.php:148
+msgid "Sections list"
+msgstr ""
+
+#: includes/kbx-post-type.php:149
+msgid "Sections list navigation"
+msgstr ""
+
+#: includes/kbx-post-type.php:173
+msgid "Tag"
+msgstr ""
+
+#: includes/kbx-utilities.php:36
+msgid "&laquo;"
+msgstr ""
+
+#: includes/kbx-utilities.php:37
+msgid "&raquo;"
+msgstr ""
+
+#: includes/kbx-utilities.php:115
+msgid "All"
+msgstr ""
+
+#: includes/kbx-utilities.php:391
+msgid "Home"
+msgstr ""
+
+#: includes/kbx-utilities.php:595
+msgid "Page"
+msgstr ""
+
+#: includes/kbx-utilities.php:605
+msgid "Error 404"
+msgstr ""
+
+#: kbx-help.php:12
+msgid "Knowledgebase Help"
+msgstr ""
+
+#: kbx-help.php:31
+msgid "Knowledgebase - Help"
+msgstr ""
+
+#: kbx-help.php:33
+msgid ""
+" You need to use shortcodes to display article search page or glossary page. "
+"Copy the below shortcodes as per your requirement and put in your post or "
+"page."
+msgstr ""
+
+#: kbx-help.php:34
+msgid "Shortcodes"
+msgstr ""
+
+#: kbx-help.php:36
+msgid "for article search page with category tiles."
+msgstr ""
+
+#: kbx-help.php:39
+msgid "for glossary page."
+msgstr ""
+
+#: kbx-help.php:47
+msgid "Settings options are self explanatory. These can be found under"
+msgstr ""
+
+#: kbx-help.php:52 kbx-help.php:55
+msgid "Widgets"
+msgstr ""
+
+#: kbx-help.php:55
+msgid "Widgets can be found under"
+msgstr ""
+
+#: kbx-help.php:55
+msgid "Appearence"
+msgstr ""
+
+#: kbx-help.php:58
+msgid "There are two avilable widgets. These are"
+msgstr ""
+
+#: kbx-help.php:60
+msgid "Sorting Options: Date, Popularity, Views"
+msgstr ""
+
+#: kbx-help.php:61
+msgid "Knowledgebase Tag Cloud"
+msgstr ""
+
+#: kbx-help.php:67
+msgid "Custom Templating"
+msgstr ""
+
+#: kbx-help.php:70
+msgid ""
+"To design custom template for <strong>Archive</strong>,<strong>Articles "
+"Section</strong>,<strong> Article Search</strong>  & <strong>Article Detail</"
+"strong> page, you have to put <strong>kbhd</strong>  folder into your active "
+"theme root folder. Where"
+msgstr ""
+
+#: kbx-help.php:73
+msgid "is for <strong>Archive</strong> page "
+msgstr ""
+
+#: kbx-help.php:74
+msgid ""
+"is for <strong>Articles Section</strong> or <strong>Articles Category</"
+"strong>  page "
+msgstr ""
+
+#: kbx-help.php:75
+msgid "is for <strong>Article Search</strong> page "
+msgstr ""
+
+#: kbx-help.php:76
+msgid " is for <strong>Article Detail</strong> page "
+msgstr ""
+
+#: kbx-help.php:78
+msgid ""
+" After placing template files into root directory of your active theme "
+"folder, now you can write custom style (CSS)  in your <strong>style.css</"
+"strong> file which will be implemented in Knowledgebase templates."
+msgstr ""
+
+#: kbx-help.php:79
+msgid ""
+" <strong>Warning : </strong> Don't rename <strong>kbhd</strong>  folder name."
+msgstr ""
+
+#: qc-promo-page/main-part-file.php:12 qc-promo-page/main-part-file.php:225
+msgid "QuantumCloud"
+msgstr ""
+
+#: qc-promo-page/main-part-file.php:34 qc-promo-page/promo-page.php:12
+msgid "More WordPress Goodies for You!"
+msgstr ""
+
+#: qc-promo-page/main-part-file.php:48
+msgid "SIMPLE LINK DIRECTORY"
+msgstr ""
+
+#: qc-promo-page/main-part-file.php:49
+msgid ""
+"Directory plugin with a unique approach to curate topic focused website link "
+"lists. Curate gorgeous Link Resources, Partners, Vendors Directories."
+msgstr ""
+
+#: qc-promo-page/main-part-file.php:50 qc-promo-page/main-part-file.php:60
+#: qc-promo-page/main-part-file.php:70 qc-promo-page/main-part-file.php:80
+#: qc-promo-page/main-part-file.php:90 qc-promo-page/main-part-file.php:100
+msgid "Download Now"
+msgstr ""
+
+#: qc-promo-page/main-part-file.php:58
+msgid "INFOGRAPHICS AND LIST BUILDER ILIST"
+msgstr ""
+
+#: qc-promo-page/main-part-file.php:59
+msgid ""
+"Infographics & elegant Lists are now easy to create with iList. Build HTML, "
+"Responsive infographics & simple Text or Image Lists quickly."
+msgstr ""
+
+#: qc-promo-page/main-part-file.php:68
+msgid "PORTFOLIO X"
+msgstr ""
+
+#: qc-promo-page/main-part-file.php:69
+msgid ""
+"Portfolio X is an advanced portfolio manager with streamlined workflow and "
+"unique designs to showcase your works. Slideshow and Widgets included."
+msgstr ""
+
+#: qc-promo-page/main-part-file.php:78
+msgid "WOOCOMMERCE SHOP ASSISTANT JARVIS"
+msgstr ""
+
+#: qc-promo-page/main-part-file.php:79
+msgid ""
+"WooCommerce shops now have JARVIS - unique shop assistant to increase sales! "
+"PopUp Message, Recently Viewed, Advanced Search in 1 window!"
+msgstr ""
+
+#: qc-promo-page/main-part-file.php:88
+msgid "WOO TABBED CATEGORY PRODUCT LISTING"
+msgstr ""
+
+#: qc-promo-page/main-part-file.php:89
+msgid ""
+"WooCommerce addon to display Category based Product Listing in tab format on "
+"any page with a short code."
+msgstr ""
+
+#: qc-promo-page/main-part-file.php:98
+msgid "SEO HELP"
+msgstr ""
+
+#: qc-promo-page/main-part-file.php:99
+msgid ""
+"SEO Help provides helpful hints to generate LinkBait titles. Increase your "
+"Click Through Rate or CTR. Write better contents with SEO tips."
+msgstr ""
+
+#: qc-promo-page/main-part-file.php:122
+msgid "More QuantumCloud Services"
+msgstr ""
+
+#: qc-promo-page/main-part-file.php:139
+msgid "Creative Web Design"
+msgstr ""
+
+#: qc-promo-page/main-part-file.php:141
+msgid ""
+"Creative and custom web design to maximize user experience through "
+"responsive, eye catching, user-friendly and interactive functionality."
+msgstr ""
+
+#: qc-promo-page/main-part-file.php:153
+msgid "Advanced Web Development"
+msgstr ""
+
+#: qc-promo-page/main-part-file.php:155
+msgid ""
+"Whether you need a SAAS web application, CRM or custom extension to your "
+"favorite CMS like WordPress we can create elegant, custom web applications "
+"specific to your own and unique requirements."
+msgstr ""
+
+#: qc-promo-page/main-part-file.php:167
+msgid "SEO and Digital Marketing"
+msgstr ""
+
+#: qc-promo-page/main-part-file.php:169
+msgid ""
+"At QuantumCloud, our priority is to help your business grow. Our "
+"professional SEO services are the last pieces of the puzzle to ensure "
+"success of your online venture and business."
+msgstr ""
+
+#: qc-promo-page/main-part-file.php:181
+msgid "Mobile App Development"
+msgstr ""
+
+#: qc-promo-page/main-part-file.php:183
+msgid ""
+"Combining native and hybrid mobile app development expertise, we offer iOS "
+"and Android mobile development under one budget. We specialize in cross-"
+"platform and hybrid mobile apps."
+msgstr ""
+
+#: qc-promo-page/main-part-file.php:195
+msgid "WordPress Development"
+msgstr ""
+
+#: qc-promo-page/main-part-file.php:197
+msgid ""
+"We are WordPress Developers and We Create Beautiful & SEO Friendly WordPress "
+"Websites. Theme Customization to Custom WordPress Plugin Development - We "
+"are the Gurus."
+msgstr ""
+
+#: qc-promo-page/main-part-file.php:207
+msgid "WordPress Theme Customization"
+msgstr ""
+
+#: qc-promo-page/main-part-file.php:209
+msgid ""
+"We will customize your chosen WordPress theme, add extra plugins and add "
+"pages & contents to create a complete and functional website for your "
+"business. . We have extensive experiences working with premium themes from "
+"themeforest and other market places."
+msgstr ""
+
+#: qc-promo-page/main-part-file.php:225
+msgid "Web Design Company"
+msgstr ""
+
+#: qc-promo-page/promo-page.php:13
+msgid "More"
+msgstr ""
+
+#: qc-support-promo-page/class-qc-support-promo-page.php:36
+msgid ""
+"Problem in processing your form submission request! Apologies for the "
+"inconveniences.<br> \n"
+"Please email to <span style=\"color:#22A0C9;font-weight:bold !important;font-"
+"size:14px \"> quantumcloud@gmail.com </span> with any feedback. We will get "
+"back to you right away!"
+msgstr ""
+
+#: qc-support-promo-page/class-qc-support-promo-page.php:97
+msgid "Your email was sent successfully. Thanks!"
+msgstr ""
+
+#: views/bot-templates/template-00/shortcode.php:24
+#: views/bot-templates/template-00/template.php:21
+#: views/bot-templates/template-01/shortcode.php:23
+#: views/bot-templates/template-01/template.php:19
+#: views/bot-templates/template-02/shortcode.php:24
+#: views/bot-templates/template-02/template.php:20
+#: views/bot-templates/template-03/shortcode.php:23
+#: views/bot-templates/template-03/template.php:19
+msgid "Send a message."
+msgstr ""
+
+#: views/bot-templates/template-00/shortcode.php:26
+#: views/bot-templates/template-00/template.php:23
+#: views/bot-templates/template-01/shortcode.php:25
+#: views/bot-templates/template-01/template.php:21
+#: views/bot-templates/template-02/shortcode.php:26
+#: views/bot-templates/template-02/template.php:22
+#: views/bot-templates/template-03/shortcode.php:25
+#: views/bot-templates/template-03/template.php:21
+msgid "send"
+msgstr ""
+
+#: views/general/archive-kbx_knowledgebase.php:18
+msgid "Knowledebase Articles"
+msgstr ""
+
+#: views/general/archive-kbx_knowledgebase.php:47
+#: views/templates/basic/kbx-faq.php:19
+#: views/templates/basic/template-articles.php:19
+msgid "Sort By"
+msgstr ""
+
+#: views/general/archive-kbx_knowledgebase.php:48
+#: views/templates/basic/kbx-faq.php:20
+#: views/templates/basic/template-articles.php:20
+msgid "Sort by Default"
+msgstr ""
+
+#: views/general/archive-kbx_knowledgebase.php:49
+#: views/templates/basic/kbx-faq.php:21
+#: views/templates/basic/template-articles.php:21
+msgid "Sort A-Z"
+msgstr ""
+
+#: views/general/archive-kbx_knowledgebase.php:50
+#: views/templates/basic/kbx-faq.php:22
+#: views/templates/basic/template-articles.php:22
+msgid "Sort by Popularity"
+msgstr ""
+
+#: views/general/archive-kbx_knowledgebase.php:51
+#: views/templates/basic/kbx-faq.php:23
+#: views/templates/basic/template-articles.php:23
+msgid "Sort by Views"
+msgstr ""
+
+#: views/general/archive-kbx_knowledgebase.php:86
+#: views/general/taxonomy-kbx_category.php:51
+#: views/templates/basic/kbx-faq.php:56
+#: views/templates/basic/template-articles.php:64
+#: views/templates/basic/template-glossary.php:50
+msgid "No articles found under this section."
+msgstr ""
+
+#: views/general/search-kbx_knowledgebase.php:25
+msgid "Search Results For: "
+msgstr ""
+
+#: views/general/search-kbx_knowledgebase.php:62
+msgid "No articles found as per your search query."
+msgstr ""
+
+#: views/general/single-kbx_knowledgebase.php:53
+msgid "No article found according to the provided URL."
+msgstr ""
+
+#: views/templates/basic/template.php:40
+msgid "articles"
+msgstr ""

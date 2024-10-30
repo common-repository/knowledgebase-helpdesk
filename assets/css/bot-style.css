@@ -1,0 +1,832 @@
+/*
+    1. Global Common and Reset CSS
+    2. Ball Selector
+    3. Message container
+    4. Tab
+    5. Message Editor
+    6. Message Item
+        - Link Item
+        - Message module Featured products
+        - Order List
+        - Cart List
+    7. Product Details
+        - Popup Product Details for ShortCode
+    8. Short Code Overnight
+    9. App ShortCode
+    10. Responsive
+*/
+
+/***********************************************************************
+1. Global Common and Reset CSS
+************************************************************************/
+@font-face {
+    font-family: 'quicksandregular';
+    src: url('../fonts/quicksand-regular-webfont.woff2') format('woff2'),
+    url('../fonts/quicksand-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#kbx-bot-shortcode-template-container img, #kbx-bot-container img {
+    max-width: 100%;
+    height: auto;
+    box-shadow: none !important;
+}
+
+.clear {
+    width: 100%;
+    clear: both;
+    float: none;
+}
+
+.kbx-bot-container, .kbx-bot-shortcode-template-container {
+    font-size: 14px;
+    line-height: 1.8;
+}
+
+.kbx-bot-container a, .kbx-bot-shortcode-template-container a {
+    text-decoration: none;
+    border: none;
+    outline: none;
+    color: inherit;
+    background: none;
+    box-shadow: none;
+}
+
+.kbx-bot-container a:active, .kbx-bot-container a:hover, .kbx-bot-shortcode-template-container a:active, .kbx-bot-shortcode-template-container a:hover {
+    outline: 0;
+}
+
+.kbx-bot-container p, .kbx-bot-shortcode-template-container p {
+    background: none;
+    font-weight: normal;
+    line-height: 1.8;
+    letter-spacing: 0;
+    margin: 10px 0;
+    padding: 0;
+}
+
+.kbx-bot-container h1, .kbx-bot-container h2, .kbx-bot-container h3, .kbx-bot-container h4, .kbx-bot-container h5, .kbx-bot-container h6, .kbx-bot-shortcode-template-container h1, .kbx-bot-shortcode-template-container h2, .kbx-bot-shortcode-template-container h3, .kbx-bot-shortcode-template-container h4, .kbx-bot-shortcode-template-container h5, .kbx-bot-shortcode-template-container h6 {
+    color: inherit;
+    background: none;
+    font-weight: normal;
+    line-height: 1.1;
+    letter-spacing: 0;
+    padding: 0;
+}
+
+.kbx-bot-container h1, .kbx-bot-container h2, .kbx-bot-container h3, .kbx-bot-shortcode-template-container h1, .kbx-bot-shortcode-template-container h2, .kbx-bot-shortcode-template-container h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.kbx-bot-container h4, .kbx-bot-container h5, .kbx-bot-container h6, .kbx-bot-shortcode-template-container h4, .kbx-bot-shortcode-template-container h5, .kbx-bot-shortcode-template-container h6 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.kbx-bot-container h1, .kbx-bot-shortcode-template-container h1 {
+    font-size: 42px;
+}
+
+.kbx-bot-container h2, .kbx-bot-shortcode-template-container h2 {
+    font-size: 28px;
+}
+
+.kbx-bot-container h3, .kbx-bot-shortcode-template-container h3 {
+    font-size: 24px;
+
+}
+
+.kbx-bot-container h4, .kbx-bot-shortcode-template-container h4 {
+    font-size: 18px;
+
+}
+
+.kbx-bot-container h5, .kbx-bot-shortcode-template-container h5 {
+    font-size: 14px;
+
+}
+
+.kbx-bot-container h6, .kbx-bot-shortcode-template-container h6 {
+    font-size: 12px;
+}
+
+.kbx-bot-container button, .kbx-bot-container input, .kbx-bot-container optgroup, .kbx-bot-container select, .kbx-bot-container textarea, .kbx-bot-shortcode-template-container button, .kbx-bot-shortcode-template-container input, .kbx-bot-shortcode-template-container optgroup, .kbx-bot-shortcode-template-container select, .kbx-bot-shortcode-template-container textarea {
+    color: inherit;
+    margin: 0;
+    box-shadow: none;
+    border: none;
+    background: inherit;
+}
+
+.kbx-bot-container button:focus, .kbx-bot-container input:focus, .kbx-bot-container optgroup:focus, .kbx-bot-container select:focus, .kbx-bot-container textarea:focus, .kbx-bot-shortcode-template-container button:focus, .kbx-bot-shortcode-template-container input:focus, .kbx-bot-shortcode-template-container optgroup:focus, .kbx-bot-shortcode-template-container select:focus, .kbx-bot-shortcode-template-container textarea:focus {
+    outline: none;
+}
+
+/**************************************************************************
+2. Ball Selector
+**************************************************************************/
+
+#kbx-bot-container {
+    position: fixed;
+    z-index: 99999899;
+}
+
+.kbx-bot-ball {
+    float: right;
+    position: relative;
+    cursor: pointer;
+    background: #ffffff;
+    box-shadow: 0 0 15px #ccc;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-top: 10px;
+
+}
+
+#kbx-bot-ball .kbx-bot-ball img {
+    width: 60px !important;
+    height: 60px !important;
+    display: block;
+    border-radius: 50%;
+}
+
+.kbx-bot-ball-animator {
+    position: relative;
+    border-radius: 50%;
+}
+
+.kbx-bot-animation-active .kbx-bot-ball-animation-switch {
+    opacity: 1;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    animation: spin 2s linear infinite;
+    border: 3px solid transparent;
+    border-top-color: #9370DB;
+}
+
+.kbx-bot-animation-active .kbx-bot-ball-animation-switch:before {
+    content: "";
+    position: absolute;
+    top: -9px;
+    left: -9px;
+    right: -9px;
+    bottom: -9px;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    border-top-color: #BA55D3;
+    animation: spin 3s linear infinite;
+}
+
+.kbx-bot-animation-active .kbx-bot-ball-animation-switch:after {
+    content: "";
+    position: absolute;
+    top: -15px;
+    left: -15px;
+    right: -15px;
+    bottom: -15px;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    border-top-color: #FF00FF;
+    animation: spin 1.5s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes spinHide {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+/*******************************************************************************
+3. Message container
+*********************************************************************************/
+.kbx-bot-board-container {
+    display: none;
+    font-family: "quicksandregular", "Helvetica Neue", Helvetica, Aria;
+    height: auto;
+    width: 370px;
+    position: relative;
+    box-sizing: border-box;
+    /*margin-bottom: 10px;*/
+}
+
+.kbx-bot-board-container.active-board {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.kbx-bot-header {
+    border-radius: 5px 5px 0 0;
+    margin: 0;
+    padding: 15px 15px;
+    box-sizing: border-box;
+    text-align: center;
+    position: relative;
+    height: 63px;
+}
+
+.kbx-bot-header h3 {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.kbx-bot-content {
+    height: 400px;
+    position: relative;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.kbx-bot-product-reload.kbx-bot-product-loading {
+    display: block;
+    position: absolute;
+    background: rgba(255, 255, 255, 0.50);
+    padding: 3px;
+    border-radius: 5px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+}
+
+.kbx-bot-product-loading img {
+    display: table;
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    margin: -10px -45px;
+}
+
+ul.kbx-bot-messages-container {
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+@keyframes messageAnim {
+    0% {
+        transform: translateY(80px) scaleX(0.5);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0) scaleX(1);
+        opacity: 1;
+    }
+}
+
+ul.kbx-bot-messages-container > li {
+    position: relative;
+    box-sizing: border-box;
+    word-wrap: break-word;
+    list-style: none;
+    display: block;
+    clear: both;
+    line-height: 150%;
+    min-height: 50px;
+    margin: 0 0 10px 0;
+    animation: messageAnim 0.5s;
+    opacity: 1;
+}
+
+ul.kbx-bot-messages-container > li > .kbx-bot-paragraph h3 {
+    padding: 0 0 5px !important;
+    margin: 0 !important;
+    color: #777575;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+ul.kbx-bot-messages-container > li.kbx-bot-msg::before {
+    left: 19px;
+}
+
+ul.kbx-bot-messages-container > li.kbx-bot-user-msg::before {
+    right: 19px;
+}
+
+ul.kbx-bot-messages-container > li:before {
+    content: "";
+    display: block;
+    width: 5px;
+    height: 5px;
+    background: red;
+    top: 19px;
+    z-index: 999;
+    position: absolute;
+    border-radius: 50%;
+    box-shadow: -38px 0 #f35b5c, -28px 8px #88bfc9, -14px 35px #f35b5c, -4px 28px #88bfc9, 30px 32px #f35b5c, 28px 22px #88bfc9, 43px 0px #f35b5c, 35px -5px #88bfc9, 20px -30px #f35b5c, 10px -22px #88bfc9, -18px -30px #f35b5c, -14px -22px #88bfc9;
+    animation: 0.9s bang ease-out backwards, 0.9s linear dothide;
+    opacity: 0;
+    /*animation-delay: 0s, 0.2s;*/
+    animation-duration: 0.5s, 0.5s;
+}
+
+@keyframes dothide {
+    0% {
+        opacity: 1;
+    }
+    90% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes bang {
+    from {
+        box-shadow: 0 0 white, 0 0 white, 0 0 white, 0 0 white, 0 0 white, 0 0 white, 0 0 white, 0 0 white, 0 0 white, 0 0 white, 0 0 white, 0 0 white;
+    }
+}
+
+ul.kbx-bot-messages-container > li:first-child .kbx-bot-avatar, ul.kbx-bot-messages-container > li:first-child .kbx-bot-agent {
+    display: none;
+    overflow: hidden;
+}
+
+ul.kbx-bot-messages-container > li.kbx-bot-user-msg:after, ul.kbx-bot-messages-container > li .kbx-bot-products:after {
+    clear: both;
+    display: block;
+    content: "";
+    height: 1px;
+}
+
+ul.kbx-bot-messages-container > li .kbx-bot-agent, .kbx-bot-agent-profile .kbx-bot-widget-agent {
+    display: none;
+}
+
+#kbx-bot-messages-container .kbx-bot-avatar img, .kbx-bot-agent-profile .kbx-bot-widget-avatar img {
+    width: 40px !important;
+    height: 40px !important;
+}
+
+/*********************************************************************************
+4.  Tab
+*********************************************************************************/
+.kbx-bot-footer {
+    border-radius: 5px;
+}
+
+.kbx-bot-tab-nav {
+    padding: 15px 5px;
+    /*background-color: #9ec3c0;*/
+}
+
+.kbx-bot-tab-nav ul {
+    margin: 0 !important;
+    padding: 0 !important;
+    list-style: none;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    vertical-align: bottom;
+}
+
+.kbx-bot-tab-nav ul li {
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    transition: 0.2s;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.kbx-bot-tab-nav ul li a {
+    display: block;
+    width: 24px;
+    height: 24px;
+    margin: 5px;
+    background: url("../images/tab-btn-icon.png") no-repeat;
+    border-radius: 50%;
+    position: relative;
+}
+
+.kbx-bot-tab-nav ul li a:focus {
+    outline: none;
+}
+
+.kbx-bot-tab-nav ul li a[data-option="recent"] {
+    background-position: -7px -7px;
+}
+
+.kbx-bot-tab-nav ul li a[data-option="cart"] {
+    background-position: -47px -7px;
+
+}
+
+.kbx-bot-tab-nav ul li a[data-option="chat"] {
+    background-position: -82px -2px;
+    width: 35px;
+    height: 35px;
+    margin: 0;
+}
+
+.kbx-bot-tab-nav ul li a[data-option="help"] {
+    background-position: -129px -7px;
+
+}
+
+.kbx-bot-tab-nav ul li a[data-option="support"] {
+    background-position: -169px -7px;
+}
+
+.kbx-bot-tab-nav ul li:before {
+    content: "";
+    display: block;
+    width: 74px;
+    /*background: linear-gradient(transparent 50%, #9ec3c0 50%);*/
+    background-size: 200%, 100%;
+    transition: all 0.2s linear;
+    height: 26px;
+    position: absolute;
+    left: 0;
+    top: -20px;
+    margin-left: -20px;
+    border-radius: 50%;
+}
+
+.kbx-bot-tab-nav ul li a[data-option="chat"]:after {
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid #FFF;
+    left: -9px;
+    right: -9px;;
+    bottom: -9px;
+    top: -9px;
+}
+
+.kbx-bot-tab-nav ul li.kbx-bot-operation-active a:before, .kbx-bot-tab-nav ul li:hover a:before {
+    content: "";
+    position: absolute;
+    left: -4px;
+    right: -4px;;
+    bottom: -4px;
+    top: -4px;
+    border-radius: 50%;
+    border: 3px solid #FFF;
+    transition: 0.2s;
+}
+
+.kbx-bot-tab-nav ul li:hover:before, .kbx-bot-tab-nav ul li.kbx-bot-operation-active:before {
+    background-position: bottom;
+}
+
+.kbx-bot-tab-nav ul li a span#kbx-bot-cart-numbers {
+    position: absolute;
+    top: -6px;
+    right: -11px;
+    background: #da165d;
+    color: #fff;
+    display: block;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    font-size: 10px;
+    line-height: 16px;
+}
+
+/*************************************************************************************
+5. Message Editor
+************************************************************************************/
+.kbx-bot-editor-container {
+    border-radius: 0 0 5px 5px;
+    margin: 0;
+    padding: 6px 15px;
+}
+
+.kbx-bot-editor-container input {
+    display: inline-block;
+    border: none;
+    box-shadow: none;
+    height: 50px;
+    font-family: 'Montserrat', sans-serif;
+    width: 80%;
+    background-color: transparent;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+.kbx-bot-editor-container input:focus {
+    outline: none;
+    border: none;
+    box-shadow: none;
+    background: none;
+}
+
+.kbx-bot-editor-container button {
+    display: inline-block;
+    height: 50px;
+    background: transparent url("../images/send-button.png") no-repeat center;
+    color: transparent;
+    width: 20%;
+    cursor: pointer;
+    margin: 0 0 0 -8px;
+    padding: 0;
+    border: none;
+    outline: none;
+}
+
+.kbx-bot-editor-container button:hover {
+    background: transparent url("../images/send-button.png") no-repeat center;
+    color: transparent;
+}
+
+.kbx-bot-editor-container button:focus {
+    outline: none;
+    border: none;
+    box-shadow: none;
+    background: transparent url("../images/send-button.png") no-repeat center;
+}
+
+/*****************************************************************************************
+6. Message Item
+*********************************************************************************************/
+/*Load More Product*/
+#kbx-bot-loadmore {
+    display: table;
+    margin: 0 auto;
+    padding: 8px 20px !important;
+}
+
+.kbx-bot-support-or {
+    text-align: center;
+    font-weight: 700;
+    color: #1f8ceb;
+}
+
+.kbx-bot-user-confirmation {
+    color: #494949;
+}
+
+/************Link Item*************/
+span.kbx-bot-article-category,
+span.kbx-bot-support-items,
+span.kbx-bot-find-more,
+span.kbx-bot-wildcard {
+    display: block;
+    margin: 8px auto;
+    padding: 12px 30px;
+}
+
+.kbx-bot-reset-btn, .kbx-bot-suggest-email {
+    display: inline-block;
+    padding: 5px 12px;
+    min-width: 100px;
+}
+
+span.kbx-bot-article-category,
+span.kbx-bot-support-items,
+span.kbx-bot-find-more,
+span.kbx-bot-wildcard,
+span.kbx-bot-reset-btn,
+span.kbx-bot-suggest-email,
+#kbx-bot-loadmore {
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 50px;
+    transition: 0.2s linear;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+/****************************************************************************************************
+8 App ShortCode
+****************************************************************************************************/
+#kbx-bot-app-shortcode-container {
+    position: fixed;
+    z-index: 99999999;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #FFF;
+}
+
+#kbx-bot-app-shortcode-container .kbx-bot-board-container, #kbx-bot-app-shortcode-container .kbx-bot-container {
+    width: 100% !important;
+    background-size: cover !important;
+}
+
+#kbx-bot-app-shortcode-container .kbx-bot-board-container {
+    display: block;
+}
+
+#kbx-bot-app-shortcode-container .kbx-bot-board-container:after {
+    display: none;
+}
+
+#kbx-bot-app-shortcode-container .kbx-bot-product img {
+    margin: 0 auto;
+}
+
+#kbx-bot-app-shortcode-container .active-chatbot-product-details {
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 999999999;
+    background: rgba(0, 0, 0, 0.80);
+}
+
+/****************************************************************************************************
+9 ShortCode OverRight
+****************************************************************************************************/
+/*.kbx-bot-shortcode-template-container .kbx-bot-content {
+    height: 350px;
+}*/
+.kbx-bot-shortcode-template-container {
+
+}
+
+/************Link Item*************/
+.kbx-bot-shortcode-template-container span.kbx-bot-product-category,
+.kbx-bot-shortcode-template-container span.kbx-bot-support-items,
+.kbx-bot-shortcode-template-container span.kbx-bot-find-more,
+.kbx-bot-shortcode-template-container span.kbx-bot-wildcard,
+.kbx-bot-shortcode-template-container span.kbx-bot-suggest-email,
+.kbx-bot-shortcode-template-container span.kbx-bot-reset-btn,
+.kbx-bot-shortcode-template-container #kbx-bot-loadmore {
+    color: #000000;
+    background-image: linear-gradient(to right, #a1c4fd 0%, #c2e9fb 51%, #a1c4fd 100%);
+    background-size: 200% auto;
+    box-shadow: 0 5px 5px #c3c3c3;
+    border: 1px solid #ffffff;
+}
+
+.kbx-bot-shortcode-template-container span.kbx-bot-product-category:hover,
+.kbx-bot-shortcode-template-container span.kbx-bot-support-items:hover,
+.kbx-bot-shortcode-template-container span.kbx-bot-find-more:hover,
+.kbx-bot-shortcode-template-container span.kbx-bot-wildcard:hover,
+.kbx-bot-shortcode-template-container span.kbx-bot-suggest-email:hover,
+.kbx-bot-shortcode-template-container span.kbx-bot-reset-btn:hover,
+.kbx-bot-shortcode-template-container #kbx-bot-loadmore:hover {
+    background-position: right center;
+    box-shadow: none;
+}
+
+.kbx-bot-msg .kbx-bot-articles-area ul {
+    margin: 0;
+}
+
+.kbx-bot-msg .kbx-bot-articles-area ul li {
+    border: 1px solid #F5F5F5;
+    border-bottom: none;
+    padding: 0;
+    margin: 2px 0;
+    clear: both;
+    font-size: 14px;
+    list-style: none !important;
+}
+.kbx-bot-search-article-content a.kbx-bot-article-read-more{
+    padding-left: 5px;
+    font-weight: bold;
+    font-size: 16px;
+    display: inline-table;
+    float: right;
+}
+.kbx-bot-search-article-content:after{
+    display: table;
+    width: 100%;
+    height: 1px;
+    content: "";
+}
+
+.kbx-bot-msg .kbx-bot-articles-area .kbx-bot-search-article-title, .kbx-bot-msg .kbx-bot-articles-area .kbx-bot-search-article-content {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.kbx-bot-msg .kbx-bot-articles-area .kbx-bot-search-article-title {
+    border-bottom: 1px solid #F5F5F5;
+    display: block;
+    padding: 10px 10px 10px 30px;
+    background-image: linear-gradient(to right, #a1c4fd 0%, #c2e9fb 51%, #a1c4fd 100%);
+    background-size: 200% auto;
+    color: #3a3a3a;
+    cursor: pointer;
+    transition: all 0.5s;
+    position: relative;
+}
+
+.kbx-bot-msg .kbx-bot-articles-area ul.articleList li .kbx-bot-search-article-title:before {
+    position: absolute;
+    left: 12px;
+    color: #000000;
+}
+
+.kbx-bot-msg .kbx-bot-articles-area ul.articleList .kbx-article-accordion-close .kbx-bot-search-article-title:before {
+    content: " + ";
+}
+
+.kbx-bot-msg .kbx-bot-articles-area ul.articleList .kbx-article-accordion-open .kbx-bot-search-article-title:before {
+    content: " - ";
+}
+
+.kbx-bot-msg .kbx-bot-articles-area ul.articleList .kbx-article-accordion-close .kbx-bot-search-article-content {
+    display: none;
+}
+
+.kbx-bot-msg .kbx-bot-articles-area ul.articleList .kbx-article-accordion-open .kbx-bot-search-article-content {
+    display: block;
+}
+
+.kbx-bot-msg .kbx-bot-articles-area .kbx-bot-search-article-title:hover {
+    background-position: right center;
+}
+
+.kbx-bot-msg .kbx-bot-articles-area .kbx-bot-search-article-content {
+    border-bottom: 1px solid #F5F5F5;
+    background-color: #ffffff;
+    margin: 0;
+}
+#kbx-bot-desktop-close {
+    display: block;
+    position: absolute;
+    right: -5px;
+    padding: 5px;
+    font-size: 14px;
+    font-family: "Arial";
+    line-height: 20px;
+    top: -30px;
+    width: 30px;
+    height: 30px;
+    background-color: #7d8999;
+    border-radius: 50%;
+    color: #ffffff;
+    cursor: pointer;
+    text-align: center;
+    box-sizing: border-box;
+    transition: 0.2s;
+    transform: translateY(20px);
+}
+/****************************************************************************************************
+9 Responsive
+****************************************************************************************************/
+@media screen and (max-width: 1200px) {
+    /******************Product Details Popup*****************/
+    #kbx-bot-ball-container .kbx-bot-product-container {
+        position: absolute;
+        animation: none;
+        right: 0;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(1, 1, 1, 0.79);
+        z-index: 9999;
+        margin: 0;
+    }
+
+    /******product details layout******/
+    #kbx-bot-ball-container .kbx-bot-product-container {
+        overflow-x: auto;
+    }
+
+    .kbx-bot-product-details {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .kbx-bot-product-image-col, .kbx-bot-product-info-col {
+        width: 100%;
+        box-sizing: border-box;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    #kbx-bot-container {
+        right: 20px !important;
+        bottom: 5px !important;
+    }
+
+    .kbx-bot-board-container {
+        width: 270px;
+    }
+
+}

@@ -1,0 +1,430 @@
+/*
+    1.ShortCode Grid
+    2.Kbx bot Message container
+    3.Sidebar
+        -Widget
+        -Agent
+*/
+/**********************************************************************************
+1. ShortCode Grid
+**********************************************************************************/
+.kbx-bot-shortcode-template-02 {
+    font-family: "quicksandregular", "Helvetica Neue", Helvetica, Aria;
+    height: auto;
+    max-width: 1100px;
+    margin: 0 auto;
+    position: relative;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background: #ffffff;
+}
+
+.kbx-bot-shortcode-row {
+    font-size: 0;
+}
+
+.kbx-bot-shortcode-template-02 .kbx-bot-container, .kbx-bot-shortcode-template-02 .kbx-bot-sidebar {
+    display: inline-block;
+    vertical-align: middle;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.kbx-bot-shortcode-template-02 .kbx-bot-sidebar {
+    width: 30%;
+    padding: 15px;
+    font-size: 14px;
+    line-height: 1.8;
+    position: relative;
+}
+
+@keyframes Gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.kbx-bot-shortcode-template-02 .kbx-bot-container {
+    width: 70%;
+    background-color: #000;
+    background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB) !important;
+    background-size: 400% 400% !important;
+    animation: Gradient 15s ease infinite !important;
+}
+
+.kbx-bot-shortcode-template-02 .kbx-bot-left-sidebar {
+    background-color: #23A6D5;
+}
+
+.kbx-bot-left-sidebar-inner {
+    overflow-y: auto;
+    max-height: 400px;
+}
+
+/***************************************************************************************************
+2. Kbx bot Message container
+****************************************************************************************************/
+.kbx-bot-header {
+    background: rgba(109, 203, 227, 0.50);
+}
+
+.kbx-bot-header h3 {
+    color: #ffffff;
+    font-size: 18px !important;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 1px;
+}
+
+.kbx-bot-content {
+
+}
+
+.kbx-bot-comment-loader {
+    margin: 0 auto;
+    display: block;
+}
+
+ul.kbx-bot-messages-container > li {
+    margin-bottom: 10px;
+    min-height: 46px;
+
+    /*display: table;*/
+    /*box-shadow: 0px 5px 10px rgba(211, 211, 211, 0.77);*/
+}
+
+ul.kbx-bot-messages-container > li.kbx-bot-msg {
+    padding-left: 55px;
+}
+
+ul.kbx-bot-messages-container > li.kbx-bot-user-msg {
+    padding-right: 55px;
+    text-align: right;
+}
+
+ul.kbx-bot-messages-container > li:first-child {
+    padding: 0;
+}
+
+ul.kbx-bot-messages-container > li > .kbx-bot-avatar {
+    position: absolute;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 40px;
+    height: 40px;
+
+}
+
+ul.kbx-bot-messages-container > li.kbx-bot-msg .kbx-bot-avatar {
+    top: 3px;
+    left: 3px;
+}
+
+ul.kbx-bot-messages-container > li.kbx-bot-user-msg .kbx-bot-avatar {
+    top: 3px;
+    right: 3px;
+}
+
+ul.kbx-bot-messages-container > li .kbx-bot-agent {
+    display: none;
+}
+
+ul.kbx-bot-messages-container > li > .kbx-bot-paragraph {
+    color: #3e3d3d;
+    max-width: 90%;
+    background-color: rgba(255, 255, 255, 0.47);
+    padding: 8px 20px;
+    margin: 4px 0;
+    border-radius: 20px;
+}
+
+ul.kbx-bot-messages-container li:first-child.kbx-bot-msg .kbx-bot-paragraph {
+    box-shadow: none;
+    padding: 12px;
+}
+
+ul.kbx-bot-messages-container > li.kbx-bot-user-msg .kbx-bot-paragraph {
+    float: right;
+}
+
+ul.kbx-bot-messages-container > li.kbx-bot-msg .kbx-bot-paragraph {
+    float: left;
+}
+
+/********* Footer ****************/
+.kbx-bot-footer {
+    border-radius: 5px;
+}
+
+/******Message Editor ***********/
+
+.kbx-bot-editor-area {
+    border-top: 1px solid #deebe9;
+    border-radius: 0 0 5px 5px;
+    margin: 0;
+    padding: 6px 15px;
+}
+
+.kbx-bot-editor-area input {
+    display: inline-block;
+    border: none;
+    height: 50px;
+    font-family: 'Montserrat', sans-serif;
+    width: 80%;
+    background-color: transparent;
+    color: #FFF !important;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+}
+
+.kbx-bot-editor-area input:focus {
+    outline: none;
+    border: none;
+    box-shadow: none;
+    background: none;
+}
+
+input.kbx-bot-editor:placeholder {
+    color: #ffffff;
+}
+
+.kbx-bot-editor-area button {
+    display: inline-block;
+    height: 50px;
+    background: transparent url("../../../assets/images/send-button.png") no-repeat center;
+    color: transparent;
+    width: 20%;
+    cursor: pointer;
+    margin: 0 0 0 -8px;
+    padding: 0;
+    border: none;
+    outline: none;
+    font-size: 0 !important;
+}
+
+.kbx-bot-editor-area button:hover {
+    background: transparent url("../../../assets/images/send-button.png") no-repeat center;
+}
+
+.kbx-bot-editor-area button:focus {
+    outline: none;
+    border: none;
+    box-shadow: none;
+    background: transparent url("../../../assets/images/send-button.png") no-repeat center;
+}
+
+/*******************************************************************************************
+sidebar element
+*******************************************************************************************/
+
+/***********Widget*************/
+.kbx-bot-widget {
+    margin-bottom: 30px;
+    margin-right: 10px;
+}
+
+.kbx-bot-widget:last-child {
+    margin-bottom: 0;
+}
+
+.kbx-bot-widget h3.kbx-bot-widget-title {
+    color: #ffffff;
+    margin: 7px 0 10px;
+    padding: 0 0 5px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 1px;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+/************Agent***********/
+
+.kbx-bot-agent {
+    position: relative;
+    padding-left: 35px;
+}
+
+.kbx-bot-left-sidebar > .kbx-bot-widget:first-child {
+    margin-bottom: 0;
+    position: absolute;
+    top: -18px;
+
+}
+
+h3.kbx-bot-agent-name {
+    color: #ffffff;
+    margin: 0 !important;
+    font-size: 14px !important;
+    font-weight: 700;
+    opacity: 0;
+    left: 0;
+    background-color: #23A6D5;
+    padding: 6px 8px;
+    transition: all 1s;
+}
+
+.kbx-bot-left-sidebar > .kbx-bot-widget:hover h3.kbx-bot-agent-name {
+    opacity: 1;
+    left: 100%;
+}
+
+.kbx-bot-agent img {
+    box-shadow: none !important;
+    width: 30px;
+    height: auto;
+    position: absolute;
+    left: 0;
+    cursor: pointer;
+    border: 2px solid #23A6D5;
+    border-radius: 50% !important;
+}
+
+.kbx-bot-agent-name {
+    margin: 5px 0;
+    padding: 0;
+    color: #999999;
+}
+
+.kbx-bot-widget ul.kbx-bot-products, .kbx-bot-products-area {
+    margin: 0 !important;
+}
+
+/**********************************
+Reset
+ **********************************/
+/********* Order List *******/
+.kbx-bot-cart-header div:first-child, .kbx-bot-cart-single div:first-child {
+    width: 40%;
+}
+
+.kbx-bot-cart-header div:nth-child(2), .kbx-bot-cart-single div:nth-child(2) {
+    width: 26%;
+}
+
+.kbx-bot-cart-header {
+    background-color: #F5F5F5;
+}
+
+.kbx-bot-cart-container div p {
+    text-align: left !important;
+    color: #ffffff !important;
+}
+
+.kbx-bot-cart-single {
+    background-color: rgba(245, 245, 245, 0.1);
+    border-bottom: 1px solid #dddddd;
+}
+
+.kbx-bot-cart-single:nth-child(2n+1) {
+    background-color: rgba(245, 245, 245, 0.5);
+}
+
+.kbx-bot-cart-container input[type="number"] {
+    width: 40px;
+}
+
+.kbx-bot-cart-footer div a {
+    text-decoration: none;
+    background: #6dcbe3;
+    color: #ffffff !important;
+}
+
+.kbx-bot-cart-footer div a:hover, .kbx-bot-cart-footer div:last-child a {
+    background: #559db0 !important;
+}
+
+.kbx-bot-remove-cart-item {
+    margin-left: 5px;
+}
+
+/****** Product Details*******/
+.kbx-bot-product-details {
+    box-shadow: 0 0 10px #ccc;
+    background-color: #f5f5f5;
+}
+
+.kbx-bot-product-cart-button input[type="button"], #kbx-bot-loadmore {
+    border: 1px solid #6dcbe3;
+    background: #6dcbe3;
+    color: #ffffff;
+    box-shadow: 0 0 2px #999;
+}
+
+.kbx-bot-product-cart-button input[type="button"]:hover, #kbx-bot-loadmore:hover {
+    background: #559db0;
+    color: #ffffff;
+}
+
+#kbx-bot-shortcode-template-container a.kbx-bot-product-close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #6dcbe3 url("../../../assets/images/woo-boat-product-close-icon.png") no-repeat center;
+    background-size: 27px;
+    width: 50px;
+    height: 50px;
+}
+
+#kbx-bot-shortcode-template-container a.kbx-bot-product-close:hover {
+    background-color: red;
+}
+
+#kbx-bot-shortcode-template-container .kbx-bot-product-details {
+    box-shadow: none;
+}
+
+#kbx-bot-shortcode-template-container h2#kbx-bot-product-title {
+    margin: 0 0 10px !important;
+    color: #999999;
+    padding: 0 0 5px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 1px;
+}
+
+/*********************************/
+.kbx-bot-msg .kbx-bot-products-area ul li {
+    width: 31%;
+    margin-right: 2%;
+}
+
+.kbx-bot-msg .kbx-bot-products-area ul li:nth-child(2n+2) {
+    margin-left: 0;
+}
+
+.kbx-bot-msg .kbx-bot-products-area ul li:nth-child(3n+3) {
+    margin-right: 0;
+}
+
+@media screen and (max-width: 1024px) {
+    /*.kbx-bot-left-sidebar {*/
+        /*display: none !important;*/
+    /*}*/
+}
+
+@media screen and (max-width: 767px) {
+    .kbx-bot-shortcode-template-02 {
+        display: block;
+    }
+
+    .kbx-bot-shortcode-template-02 .kbx-bot-shortcode-row {
+        display: block;
+    }
+
+    .kbx-bot-shortcode-template-02 .kbx-bot-container, .kbx-bot-shortcode-template-02 .kbx-bot-sidebar {
+        display: block !important;
+        width: 100% !important;
+        margin-bottom: 30px;
+    }
+}
+
+

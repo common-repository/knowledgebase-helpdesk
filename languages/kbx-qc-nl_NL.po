@@ -1,0 +1,1507 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Knowledgebase Helpdesk Pro\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-22 16:36+0600\n"
+"PO-Revision-Date: 2019-03-28 18:26+0100\n"
+"Language-Team: QuantumCloud & quantumcloud@gmail.com\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.1\n"
+"X-Poedit-KeywordsList: _e;__;_x;esc_html_e\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Last-Translator: Failed <failed@failed.eu>\n"
+"Language: nl\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/kbx-admin-exporters.php:37
+msgid "Articles Export"
+msgstr "Artikelen Exporteren"
+
+#: admin/kbx-admin-exporters.php:38
+msgid "Export"
+msgstr "Exporteren"
+
+#: admin/kbx-admin.php:23 kbx-help.php:44 kbx-help.php:47
+msgid "Settings"
+msgstr "Instellingen"
+
+#: admin/kbx-admin.php:83
+#, php-format
+msgid ""
+"Thank you for using <a href=\"%1$s\" target=\"_blank\">Knowledgebase</a>! "
+"Please <a href=\"%2$s\" target=\"_blank\">rate us</a> on <a href=\"%2$s\" "
+"target=\"_blank\">WordPress.org</a>"
+msgstr ""
+"Bedankt voor het gebruik van <a href=\"%1$s\" target=\"_blank\">Kennisbank</"
+"a>! Gelieve <a href=\"%2$s\" target=\"_blank\">ons beoordelen</a> op <a href="
+"\"%2$s\" target=\"_blank\">WordPress.org</a>"
+
+#: admin/kbx-admin.php:122
+#, php-format
+msgid ""
+"Knowledgebase settings for the slug have not been registered. Please visit "
+"the <a href=\"%s\">admin page</a> to update and save the options."
+msgstr ""
+"Kennisbank instellingen voor de slug zijn niet geregistreerd. Ga naar de <a "
+"href=\"%s\">admin pagina</a> om de opties bij te werken en op te slaan."
+
+#: admin/kbx-bot-admin-ui.php:10
+msgid "HelpDesk Bot Control Panel"
+msgstr "HelpDesk Bot Configuratiescherm"
+
+#: admin/kbx-bot-admin-ui.php:15
+msgid "Floating Articles Searching and Bot Option "
+msgstr "Floating Artikelen Zoeken en Bot Optie"
+
+#: admin/kbx-bot-admin-ui.php:17
+msgid "Knowledgebase HelpDesk Bot"
+msgstr "Kennisbank HelpDesk bot"
+
+#: admin/kbx-bot-admin-ui.php:18
+msgid "Floating Search Widget"
+msgstr "Floating Zoek widget"
+
+#: admin/kbx-bot-admin-ui.php:27 admin/kbx-bot-admin-ui.php:31
+msgid "Disable Floating Search Widget"
+msgstr "Floating Zoek Widget Uitschakelen"
+
+#: admin/kbx-bot-admin-ui.php:47
+msgid "GENERAL SETTINGS"
+msgstr "ALGEMENE INSTELLINGEN"
+
+#: admin/kbx-bot-admin-ui.php:54
+msgid "ICONS & THEMES"
+msgstr "ICONEN & THEMA'S"
+
+#: admin/kbx-bot-admin-ui.php:60
+msgid "LANGUAGE CENTER"
+msgstr "TAAL CENTRUM"
+
+#: admin/kbx-bot-admin-ui.php:69 admin/kbx-bot-admin-ui.php:73
+msgid "Disable HelpDesk Bot"
+msgstr "Uitschakelen HelpDesk Bot"
+
+#: admin/kbx-bot-admin-ui.php:77
+msgid " Disable HelpDesk Bot Icon Animation"
+msgstr "Uitschakelen HelpDesk Bot Icoon Animatie"
+
+#: admin/kbx-bot-admin-ui.php:81
+msgid "Disable HelpDesk Bot icon border animation"
+msgstr "Uitschakelen HelpDesk Bot Icon Border Animatie"
+
+#: admin/kbx-bot-admin-ui.php:93
+msgid "Admin Email"
+msgstr "Beheerder E-mail"
+
+#: admin/kbx-bot-admin-ui.php:99
+msgid "Support Email Subject"
+msgstr "Support E-mail Onderwerp"
+
+#: admin/kbx-bot-admin-ui.php:105
+msgid "Your email was sent successfully.Thanks!"
+msgstr "Uw e-mail is met succes verzonden. Bedankt!"
+
+#: admin/kbx-bot-admin-ui.php:116
+msgid "Override HelpDesk Bot Icon's Position"
+msgstr "Override HelpDesk Bot Icoon Positie"
+
+#: admin/kbx-bot-admin-ui.php:122 admin/kbx-bot-admin-ui.php:126
+msgid "120"
+msgstr "120"
+
+#: admin/kbx-bot-admin-ui.php:133
+msgid "From Right In px"
+msgstr "Vanaf Rechts In px"
+
+#: admin/kbx-bot-admin-ui.php:138
+msgid "From Bottom In px"
+msgstr "Vanaf Onder In px"
+
+#: admin/kbx-bot-admin-ui.php:143
+msgid "Number of Articles to show in search results. ('-1' for all products )."
+msgstr ""
+"Aantal artikelen om in de zoekresultaten weer te gegeven. ('-1 ' voor alle "
+"producten)."
+
+#: admin/kbx-bot-admin-ui.php:151
+msgid "Articles display orderby "
+msgstr "Artikelen Overzicht Sorteren Op"
+
+#: admin/kbx-bot-admin-ui.php:153
+msgid "Orderby Product Title"
+msgstr "Sorteren Op Product Titel"
+
+#: admin/kbx-bot-admin-ui.php:154
+msgid "Orderby Date"
+msgstr "Sorteren Op Datum"
+
+#: admin/kbx-bot-admin-ui.php:155
+msgid "Orderby Modify"
+msgstr "Sorteren Op Wijzigen"
+
+#: admin/kbx-bot-admin-ui.php:156
+msgid "Orderby Comments Number"
+msgstr "Sorteren Op Aantal Opmerkingen"
+
+#: admin/kbx-bot-admin-ui.php:157
+msgid "Orderby Random"
+msgstr "Sorteren Op Willekeurig"
+
+#: admin/kbx-bot-admin-ui.php:158
+msgid "Orderby None"
+msgstr "Sorteren Op Geen"
+
+#: admin/kbx-bot-admin-ui.php:164
+msgid "Articles display order (ASCENDING or DESCENDING) "
+msgstr "Artikelen Weergave Volgorde (OPLOPEND of AFLOPEND)"
+
+#: admin/kbx-bot-admin-ui.php:166
+msgid "ASCENDING"
+msgstr "OPLOPEND"
+
+#: admin/kbx-bot-admin-ui.php:167
+msgid "DESCENDING"
+msgstr "AFLOPEND"
+
+#: admin/kbx-bot-admin-ui.php:173
+msgid "<strong>Knowledge Based Help Desk Bot</strong> Loading Control Options"
+msgstr "<strong>Kennis Gebaseerde Help Desk Bot</strong> Laad Besturingsopties"
+
+#: admin/kbx-bot-admin-ui.php:178
+msgid "Show on Home Page"
+msgstr "Toon op hoofdpagina"
+
+#: admin/kbx-bot-admin-ui.php:199
+msgid "Show on Blog Posts"
+msgstr "Toon op Blog Posts"
+
+#: admin/kbx-bot-admin-ui.php:221
+msgid "Show on  Pages"
+msgstr "Weergeven op pagina's"
+
+#: admin/kbx-bot-admin-ui.php:231
+msgid "All Pages"
+msgstr "Alle pagina’s"
+
+#: admin/kbx-bot-admin-ui.php:238
+msgid "Selected Pages Only"
+msgstr "Alleen Geselecteerde Pagina's"
+
+#: admin/kbx-bot-admin-ui.php:261
+msgid "Show on WooCommerce"
+msgstr "Weergeven op WooCommerce"
+
+#: admin/kbx-bot-admin-ui.php:291
+msgid "HelpDesk Bot Icon"
+msgstr "HelpDesk Bot Icoon"
+
+#: admin/kbx-bot-admin-ui.php:298
+msgid "Icon - 0"
+msgstr "Icoon - 0"
+
+#: admin/kbx-bot-admin-ui.php:306
+msgid "Icon - 1"
+msgstr "Icoon - 1"
+
+#: admin/kbx-bot-admin-ui.php:311
+msgid "Icon - 2"
+msgstr "Icoon - 2"
+
+#: admin/kbx-bot-admin-ui.php:316
+msgid "Icon - 3"
+msgstr "Icoon - 3"
+
+#: admin/kbx-bot-admin-ui.php:322
+msgid "Icon - 4"
+msgstr "Icoon - 4"
+
+#: admin/kbx-bot-admin-ui.php:329
+msgid "Icon - 5"
+msgstr "Icoon - 5"
+
+#: admin/kbx-bot-admin-ui.php:334
+msgid "Icon - 6"
+msgstr "Icoon - 6"
+
+#: admin/kbx-bot-admin-ui.php:339
+msgid "Icon - 7"
+msgstr "Icoon - 7"
+
+#: admin/kbx-bot-admin-ui.php:344
+msgid "Icon - 8"
+msgstr "Icoon - 8"
+
+#: admin/kbx-bot-admin-ui.php:349
+msgid "Icon -9"
+msgstr "Icoon - 9"
+
+#: admin/kbx-bot-admin-ui.php:354
+msgid "Icon - 10"
+msgstr "Icoon - 10"
+
+#: admin/kbx-bot-admin-ui.php:369
+msgid "Custom Icon"
+msgstr "Aangepast icoon"
+
+#: admin/kbx-bot-admin-ui.php:378
+msgid " Upload custom Icon"
+msgstr "Aangepast Pictogram Uploaden"
+
+#: admin/kbx-bot-admin-ui.php:383
+msgid "Upload Icon"
+msgstr "Upload Pictogram"
+
+#: admin/kbx-bot-admin-ui.php:393
+msgid " HelpDesk Bot Agent Image"
+msgstr "HelpDesk Bot Agent Beeld"
+
+#: admin/kbx-bot-admin-ui.php:401
+msgid "Default Agent"
+msgstr "Standaard Agent"
+
+#: admin/kbx-bot-admin-ui.php:417
+msgid "Custom Agent"
+msgstr "Aangepaste Agent"
+
+#: admin/kbx-bot-admin-ui.php:424
+msgid "Custom Agent Icon"
+msgstr "Pictogram voor aangepaste agent"
+
+#: admin/kbx-bot-admin-ui.php:429
+msgid "Upload  Agent Icon"
+msgstr "Pictogram voor upload agent"
+
+#: admin/kbx-bot-admin-ui.php:438
+msgid "HelpDesk Bot Themes"
+msgstr "HelpDesk Bot Thema's"
+
+#: admin/kbx-bot-admin-ui.php:449
+msgid "Theme Basic"
+msgstr "Thema Basic"
+
+#: admin/kbx-bot-admin-ui.php:458
+msgid "Theme One"
+msgstr "Thema Eén"
+
+#: admin/kbx-bot-admin-ui.php:467
+msgid "Theme Two"
+msgstr "Thema Twee"
+
+#: admin/kbx-bot-admin-ui.php:476
+msgid "Theme Three"
+msgstr "Thema Drie"
+
+#: admin/kbx-bot-admin-ui.php:485
+msgid " Custom Backgroud"
+msgstr "Aangepaste Achtergrond"
+
+#: admin/kbx-bot-admin-ui.php:493
+msgid ""
+"Change the Kbx HelpDesk Bot message board background for Theme 2 and Theme 3."
+msgstr ""
+"Verander de Kbx HelpDesk Bot Message Board achtergrond voor Thema 2 en Thema "
+"3."
+
+#: admin/kbx-bot-admin-ui.php:501
+msgid ""
+"Upload WoowBot message board background (Ideal image size 376px X 688px)."
+msgstr ""
+"Upload WoowBot Message Board achtergrond (ideaalbeeld formaat 376px X 688px)."
+
+#: admin/kbx-bot-admin-ui.php:513
+msgid "Upload HelpDesk Bot background."
+msgstr "Upload HelpDesk Bot achtergrond."
+
+#: admin/kbx-bot-admin-ui.php:517
+msgid "Custom message board background"
+msgstr "Aangepaste Message Board Achtergrond"
+
+#: admin/kbx-bot-admin-ui.php:527
+msgid ""
+"You can add multiple variations of messages for each node. They will be used "
+"randomly and give an apperance of more human like responses."
+msgstr ""
+"Je kan voor elk knooppunt meerdere variaties aan berichten toevoegen. Zij "
+"zullen willekeurig worden gebruikt en geven een uiterlijk van meer "
+"menselijke reacties."
+
+#: admin/kbx-bot-admin-ui.php:530
+msgid "Ge"
+msgstr "Ge"
+
+#: admin/kbx-bot-admin-ui.php:531
+msgid "Support"
+msgstr "Support"
+
+#: admin/kbx-bot-admin-ui.php:532
+msgid "Stop Words"
+msgstr "Stop Woorden"
+
+#: admin/kbx-bot-admin-ui.php:533 admin/kbx-bot-admin-ui.php:968
+msgid "System Keywords"
+msgstr "Systeem Sleutelwoorden"
+
+#: admin/kbx-bot-admin-ui.php:539
+msgid "General Language Settings"
+msgstr "Algemene taalinstellingen"
+
+#: admin/kbx-bot-admin-ui.php:543
+msgid "Message setting for <strong>Identity </strong>"
+msgstr "Bericht instelling voor <strong>identiteit</strong>"
+
+#: admin/kbx-bot-admin-ui.php:545
+msgid "Your Company or Website Name"
+msgstr "Je bedrijfs- of website naam"
+
+#: admin/kbx-bot-admin-ui.php:551
+msgid "Agent name"
+msgstr "Naam Agent"
+
+#: admin/kbx-bot-admin-ui.php:557
+msgid "Shopper demo name"
+msgstr "Shopper demo naam"
+
+#: admin/kbx-bot-admin-ui.php:564
+msgid "Send a Message"
+msgstr "Verzend een bericht"
+
+#: admin/kbx-bot-admin-ui.php:570
+msgid "Hello"
+msgstr "Hallo"
+
+#: admin/kbx-bot-admin-ui.php:576
+msgid "YES"
+msgstr "JA"
+
+#: admin/kbx-bot-admin-ui.php:582
+msgid "NO"
+msgstr "NEE"
+
+#: admin/kbx-bot-admin-ui.php:588
+msgid "OR"
+msgstr "OF"
+
+#: admin/kbx-bot-admin-ui.php:594
+msgid "Sorry"
+msgstr "Sorry"
+
+#: admin/kbx-bot-admin-ui.php:600
+msgid "Read the details here."
+msgstr "Lees hier de details."
+
+#: admin/kbx-bot-admin-ui.php:606
+msgid "Read More"
+msgstr "Lees meer"
+
+#: admin/kbx-bot-admin-ui.php:612 views/general/single-kbx_knowledgebase.php:46
+#: views/general/taxonomy-kbx_category.php:45
+msgid "You do not have permission to this section."
+msgstr "Je bent niet gemachtigd voor deze sectie."
+
+#: admin/kbx-bot-admin-ui.php:627
+msgid " Message setting for <strong>Greetings: </strong>"
+msgstr "Bericht instelling voor <strong>begroetingen:</strong>"
+
+#: admin/kbx-bot-admin-ui.php:706
+msgid "<strong>Knowledge Based Help Desk </strong> Atricles & Categories"
+msgstr "<strong>Kennis Gebaseerde Help Desk</strong> Artikelen & Categorieën"
+
+#: admin/kbx-bot-admin-ui.php:786
+msgid "Support Language Settings"
+msgstr "Support Taalinstellingen"
+
+#: admin/kbx-bot-admin-ui.php:898
+msgid "Stop Words Settings Options"
+msgstr "Stop Woorden Instellingsopties"
+
+#: admin/kbx-bot-admin-ui.php:927
+msgid "English"
+msgstr "Engels"
+
+#: admin/kbx-bot-admin-ui.php:928
+msgid "Arabic"
+msgstr "Arabisch"
+
+#: admin/kbx-bot-admin-ui.php:929
+msgid "Bulgarian"
+msgstr "Bulgaars"
+
+#: admin/kbx-bot-admin-ui.php:930
+msgid "Czech"
+msgstr "Tsjechisch"
+
+#: admin/kbx-bot-admin-ui.php:931
+msgid "Catalan"
+msgstr "Catalaans"
+
+#: admin/kbx-bot-admin-ui.php:932
+msgid "Danish"
+msgstr "Deens"
+
+#: admin/kbx-bot-admin-ui.php:933
+msgid "Dutch"
+msgstr "Nederlands"
+
+#: admin/kbx-bot-admin-ui.php:934
+msgid "Finnish"
+msgstr "Fins"
+
+#: admin/kbx-bot-admin-ui.php:935
+msgid "French"
+msgstr "Frans"
+
+#: admin/kbx-bot-admin-ui.php:936
+msgid "German"
+msgstr "Duits"
+
+#: admin/kbx-bot-admin-ui.php:937
+msgid "Hindi"
+msgstr "Hindi"
+
+#: admin/kbx-bot-admin-ui.php:938
+msgid "ungarian"
+msgstr "Hongaars"
+
+#: admin/kbx-bot-admin-ui.php:939
+msgid "Indonesian"
+msgstr "Indonesisch"
+
+#: admin/kbx-bot-admin-ui.php:940
+msgid "Italian"
+msgstr "Italiaans"
+
+#: admin/kbx-bot-admin-ui.php:941
+msgid "Norwegian"
+msgstr "Noors"
+
+#: admin/kbx-bot-admin-ui.php:942
+msgid "Polish"
+msgstr "Pools"
+
+#: admin/kbx-bot-admin-ui.php:943
+msgid "Portuguese"
+msgstr "Portugees"
+
+#: admin/kbx-bot-admin-ui.php:944
+msgid "Romanian"
+msgstr "Roemeens"
+
+#: admin/kbx-bot-admin-ui.php:945
+msgid "Russian"
+msgstr "Russisch"
+
+#: admin/kbx-bot-admin-ui.php:946
+msgid "Slovak"
+msgstr "Slowaaks"
+
+#: admin/kbx-bot-admin-ui.php:947
+msgid "Spanish"
+msgstr "Spaans"
+
+#: admin/kbx-bot-admin-ui.php:948
+msgid "Swedish"
+msgstr "Zweeds"
+
+#: admin/kbx-bot-admin-ui.php:949
+msgid "Turkish"
+msgstr "Turks"
+
+#: admin/kbx-bot-admin-ui.php:950
+msgid "Ukrainian"
+msgstr "Oekraïens"
+
+#: admin/kbx-bot-admin-ui.php:957
+msgid "Stop Words."
+msgstr "Stop Woorden."
+
+#: admin/kbx-bot-admin-ui.php:973
+msgid "<strong>Start</strong> Keyword"
+msgstr "<strong>Start</strong> Trefwoord"
+
+#: admin/kbx-bot-admin-ui.php:979
+msgid "FAQ"
+msgstr "FAQ"
+
+#: admin/kbx-bot-admin-ui.php:985
+msgid "<strong>Support</strong> Keyword"
+msgstr "<strong>Ondersteuning</strong> Trefwoord"
+
+#: admin/kbx-bot-admin-ui.php:991
+msgid "<strong>Converstion History Clear </strong> Keyword"
+msgstr "<strong>Gespreksgeschiedenis Wissen</strong> Trefwoord"
+
+#: admin/kbx-bot-admin-ui.php:1035
+msgid "Reset all options to Default"
+msgstr "Reset alle opties naar standaardwaarde"
+
+#: admin/kbx-bot-admin-ui.php:1039
+msgid "Save Settings"
+msgstr "Instellingen Opslaan"
+
+#: admin/kbx-bot-admin.php:12
+msgid "Knowledgebase Bot"
+msgstr "Kennisbank Bot"
+
+#: admin/kbx-bot-admin.php:13
+msgid "Bot Settings"
+msgstr "Bot Instellingen"
+
+#: admin/kbx-save-settings.php:42
+msgid ""
+"Settings have been reset to their default values. Reload this page to view "
+"the updated settings"
+msgstr ""
+"Instellingen zijn teruggezet naar hun standaardwaarden. Laad deze pagina "
+"opnieuw om de bijgewerkte instellingen weer te geven"
+
+#: admin/kbx-save-settings.php:100
+msgid "Settings updated."
+msgstr "Instellingen bijgewerkt."
+
+#: admin/kbx-settings-page.php:30
+msgid "Knowledgebase Settings"
+msgstr "Kennisbank Instellingen "
+
+#: admin/kbx-settings-page.php:71 includes/kbx-floating-search-widget.php:24
+msgid "Submit"
+msgstr "Verzenden"
+
+#: admin/kbx-settings-page.php:80
+msgid "Do you really want to reset all these settings to their default values?"
+msgstr ""
+"Wilt je werkelijk al deze instellingen naar hun standaardwaarden terugzetten?"
+
+#: admin/kbx-settings-page.php:82
+msgid "Reset"
+msgstr "Reset"
+
+#: admin/kbx-settings-page.php:122
+msgid "General"
+msgstr "Algemeen"
+
+#: admin/kbx-settings-page.php:123
+msgid "Styles"
+msgstr "Stijlen"
+
+#: admin/kbx-settings-page.php:124
+msgid "Others"
+msgstr "Anderen"
+
+#: admin/kbx-shortcode-generator.php:53
+msgid "Knowledgebase Helpdesk: Shortcode Generator"
+msgstr "Kennisbank Helpdesk: Shortcode Generator"
+
+#: admin/kbx-shortcode-generator.php:58
+msgid "Shortcode for"
+msgstr "Shortcode voor"
+
+#: admin/kbx-shortcode-generator.php:60
+msgid "Please Select Option"
+msgstr "Selecteer optie A.U.B."
+
+#: admin/kbx-shortcode-generator.php:61
+msgid "Knowledgebase Main"
+msgstr "Kennisbank Hoofd"
+
+#: admin/kbx-shortcode-generator.php:62 kbx-help.php:60
+msgid "Knowledgebase Articles"
+msgstr "Kennisbank Artikelen"
+
+#: admin/kbx-shortcode-generator.php:63
+msgid "Knowledgebase FAQ"
+msgstr "Kennisbank FAQ"
+
+#: admin/kbx-shortcode-generator.php:64
+msgid "Knowledgebase Glossary"
+msgstr "Kennisbank Woordenlijst"
+
+#: admin/kbx-shortcode-generator.php:65
+msgid "Knowledgebase Chatbot"
+msgstr "Kennisbank Chatbot"
+
+#: admin/kbx-shortcode-generator.php:66
+msgid "Knowledgebase Mobile App"
+msgstr "Kennisbank Mobiele App"
+
+#: admin/kbx-shortcode-generator.php:79
+msgid "Showcase Style"
+msgstr "Showcase Stijl"
+
+#: admin/kbx-shortcode-generator.php:82
+msgid "All Section"
+msgstr "Alle secties"
+
+#: admin/kbx-shortcode-generator.php:90
+msgid "Show Search Bar"
+msgstr "Zoekbalk Tonen"
+
+#: admin/kbx-shortcode-generator.php:93 admin/kbx-shortcode-generator.php:103
+msgid "Yes"
+msgstr "Ja"
+
+#: admin/kbx-shortcode-generator.php:95 admin/kbx-shortcode-generator.php:106
+msgid "No"
+msgstr "Nee"
+
+#: admin/kbx-shortcode-generator.php:100
+msgid "Show Pagination"
+msgstr "Toon Paginanummering"
+
+#: admin/kbx-shortcode-generator.php:111
+msgid "Order By"
+msgstr "Sorteer op"
+
+#: admin/kbx-shortcode-generator.php:114
+msgid "Date"
+msgstr "Datum"
+
+#: admin/kbx-shortcode-generator.php:115
+#: includes/export/class-kbx-article-csv-exporter.php:59
+msgid "ID"
+msgstr "ID"
+
+#: admin/kbx-shortcode-generator.php:116
+#: includes/export/class-kbx-article-csv-exporter.php:62
+msgid "Title"
+msgstr "Titel"
+
+#: admin/kbx-shortcode-generator.php:117
+msgid "Date Modified"
+msgstr "Laatst Aangepast"
+
+#: admin/kbx-shortcode-generator.php:118
+msgid "Random"
+msgstr "Willekeurig"
+
+#: admin/kbx-shortcode-generator.php:119
+msgid "Menu Order"
+msgstr "Menu Volgorde"
+
+#: admin/kbx-shortcode-generator.php:125
+msgid "Order"
+msgstr "Volgorde"
+
+#: admin/kbx-shortcode-generator.php:128
+msgid "Ascending"
+msgstr "Oplopend"
+
+#: admin/kbx-shortcode-generator.php:129
+msgid "Descending"
+msgstr "Aflopend"
+
+#: admin/kbx-shortcode-generator.php:135
+msgid "Limit"
+msgstr "Limiet"
+
+#: admin/kbx-shortcode-generator.php:139
+msgid "Numric Limit: e.g. 10"
+msgstr "Numeriek limiet: bijv. 10"
+
+#: includes/export/admin-articles-export-page.php:35
+#: includes/kbx-load-assets.php:118
+msgid "Export Articles"
+msgstr "Exporteer Artikelen"
+
+#: includes/export/admin-articles-export-page.php:40
+msgid "Export products to a CSV file"
+msgstr "Exporteer producten naar een CSV-bestand"
+
+#: includes/export/admin-articles-export-page.php:41
+msgid ""
+"This tool allows you to generate and download a CSV file containing a list "
+"of all articles."
+msgstr ""
+"Dit hulpmiddel staat u toe om een CSV-bestand te genereren en te downloaden "
+"met een lijst van alle artikelen."
+
+#: includes/export/admin-articles-export-page.php:48
+msgid "Which columns should be exported?"
+msgstr "Welke kolommen moeten er worden geëxporteerd?"
+
+#: includes/export/class-kbx-article-csv-exporter.php:60
+msgid "Publish Date"
+msgstr "Publicatiedatum"
+
+#: includes/export/class-kbx-article-csv-exporter.php:61
+msgid "Author"
+msgstr "Auteur"
+
+#: includes/export/class-kbx-article-csv-exporter.php:63
+msgid "Published"
+msgstr "Gepubliceerd"
+
+#: includes/export/class-kbx-article-csv-exporter.php:64
+msgid "Short description"
+msgstr "Korte omschrijving"
+
+#: includes/export/class-kbx-article-csv-exporter.php:65
+msgid "Description"
+msgstr "Omschrijving"
+
+#: includes/export/class-kbx-article-csv-exporter.php:66
+#: includes/kbx-post-type.php:130 includes/kbx-post-type.php:132
+msgid "Sections"
+msgstr "Secties"
+
+#: includes/export/class-kbx-article-csv-exporter.php:67
+#: includes/kbx-post-type.php:172 includes/kbx-post-type.php:174
+msgid "Tags"
+msgstr "Tags"
+
+#: includes/export/class-kbx-article-csv-exporter.php:68
+msgid "Parent"
+msgstr "Parent"
+
+#: includes/export/class-kbx-article-csv-exporter.php:69
+msgid "Article Slug"
+msgstr "Artikel slug"
+
+#: includes/export/class-kbx-article-csv-exporter.php:70
+msgid "Comments Status"
+msgstr "Registratiestatus"
+
+#: includes/export/class-kbx-article-csv-exporter.php:71
+msgid "Upvote Count"
+msgstr "Aantal stemmen"
+
+#: includes/export/class-kbx-article-csv-exporter.php:72
+msgid "Ranking"
+msgstr "Klassement"
+
+#: includes/export/class-kbx-article-csv-exporter.php:73
+msgid "Views"
+msgstr "Bekeken"
+
+#: includes/export/class-kbx-article-csv-exporter.php:74
+msgid "Glossary Term"
+msgstr "Woordenlijst term"
+
+#: includes/import/class-rscsv_import_post_helper.php:74
+msgid "Provided Post ID not found."
+msgstr "Opgegeven Bericht ID niet gevonden."
+
+#: includes/import/class-rscsv_import_post_helper.php:196
+#: includes/import/class-rscsv_import_post_helper.php:216
+#: includes/import/class-rscsv_import_post_helper.php:238
+#: includes/import/class-rscsv_import_post_helper.php:264
+#: includes/import/class-rscsv_import_post_helper.php:279
+#: includes/import/class-rscsv_import_post_helper.php:295
+#: includes/import/class-rscsv_import_post_helper.php:393
+msgid "WP_Post object is not set."
+msgstr "WP_Post object is niet ingesteld."
+
+#: includes/import/class-rscsv_import_post_helper.php:423
+msgid "Could not get remote file."
+msgstr "Kon afstandsbestand niet krijgen."
+
+#: includes/import/kbx-admin-importers.php:71
+msgid "Article Importer"
+msgstr "Artikel importeur"
+
+#: includes/import/kbx-admin-importers.php:71
+msgid "Import articles, categories, tags, from csv file."
+msgstr "Importeer artikelen, categorieën, tags, uit CSV bestand."
+
+#: includes/import/kbx-admin-importers.php:76
+msgid "Knowledgebase Articles Importer"
+msgstr "Kennisbank artikelen importeur"
+
+#: includes/import/kbx-admin-importers.php:86
+msgid "Choose a CSV (.csv) file to upload, then click Upload file and import."
+msgstr ""
+"Kies een CSV (.csv) bestand om te upload, klik vervolgens op Upload bestand "
+"en importeer."
+
+#: includes/import/kbx-admin-importers.php:87
+msgid ""
+"Excel-style CSV file is unconventional and not recommended. LibreOffice has "
+"enough export options and recommended for most users."
+msgstr ""
+"Excel-stijl CSV-bestand is onconventioneel en niet aanbevolen. LibreOffice "
+"heeft genoeg exportopties en is aanbevolen voor de meeste gebruikers."
+
+#: includes/import/kbx-admin-importers.php:88
+msgid "Requirements:"
+msgstr "Vereisten:"
+
+#: includes/import/kbx-admin-importers.php:90
+msgid "Select UTF-8 as charset."
+msgstr "Selecteer UTF-8 als charset."
+
+#: includes/import/kbx-admin-importers.php:91
+#, php-format
+msgid "You must use field delimiter as \"%s\""
+msgstr "U moet veldscheidingsteken gebruiken als %s"
+
+#: includes/import/kbx-admin-importers.php:92
+msgid "You must quote all text cells."
+msgstr "U moet alle tekst cellen citeren."
+
+#: includes/import/kbx-admin-importers.php:94
+msgid "Export Knowledgebase Articles"
+msgstr "Exporteer Kennisbank Artikelen"
+
+#: includes/import/kbx-admin-importers.php:94
+#, fuzzy
+msgid " as csv before import"
+msgstr "als CSV voor import"
+
+#: includes/import/kbx-admin-importers.php:104
+#: includes/import/kbx-admin-importers.php:108
+msgid "Sorry, there has been an error."
+msgstr "Excuses, er is een foutmelding opgetreden."
+
+#: includes/import/kbx-admin-importers.php:109
+#, php-format
+msgid ""
+"The export file could not be found at <code>%s</code>. It is likely that "
+"this was caused by a permissions problem."
+msgstr ""
+"Het exportbestand is niet te vinden op <code>%s</code>. Waarschijnlijk wordt "
+"dit veroorzaakt door een probleem met de rechten."
+
+#: includes/import/kbx-admin-importers.php:181
+msgid "Failed to open file."
+msgstr "Kan bestand niet openen."
+
+#: includes/import/kbx-admin-importers.php:209
+#, php-format
+msgid "Invalid post type \"%s\"."
+msgstr "Ongeldig berichttype \"%s\"."
+
+#: includes/import/kbx-admin-importers.php:212
+msgid "Note: Please include post_type value if that is possible."
+msgstr "Opmerking: vermeld het post_type waarde, indien mogelijk."
+
+#: includes/import/kbx-admin-importers.php:226
+#, php-format
+msgid ""
+"The post type value from your csv file does not match the existing data in "
+"your database. post_id: %d, post_type(csv): %s, post_type(db): %s"
+msgstr ""
+"De waarde van het post type uit je CSV-bestand komt niet overeen met de "
+"bestaande gegevens in de database. post_id: %d, post_type(csv): %s, "
+"post_type(db): %s"
+
+#: includes/import/kbx-admin-importers.php:475
+#, php-format
+msgid "Processing \"%s\" done."
+msgstr "Verwerking \"%s\" is uitgevoerd."
+
+#: includes/import/kbx-admin-importers.php:494
+#, fuzzy
+msgid "All Done. Go to "
+msgstr "Allemaal gedaan. Ga naar"
+
+#: includes/import/kbx-admin-importers.php:494
+msgid "Knowledgebase Articles List"
+msgstr "Kennisbank Artikelen Lijst"
+
+#: includes/kbx-ajax-search-question.php:57
+msgid "No result found."
+msgstr "Geen resultaten gevonden."
+
+#: includes/kbx-bot.php:33
+msgid "<h2>No KbxBot Theme Found!</h2>"
+msgstr "<h2>Geen KbxBot Thema Gevonden!</h2>"
+
+#: includes/kbx-bot.php:116
+msgid "<h2>No KbxBot ShortCode Theme Found!</h2>"
+msgstr "<h2>Geen KbxBot Shortcode Thema Gevonden!</h2>"
+
+#: includes/kbx-bot.php:146
+msgid "<h2>No WoowBot Theme Found!</h2>"
+msgstr "<h2>Geen WoowBot Thema Gevonden!</h2>"
+
+#: includes/kbx-bot.php:305 includes/kbx-bot.php:410
+msgid "Load More"
+msgstr "Meer laden"
+
+#: includes/kbx-floating-search-widget.php:21
+msgid "Search the knowledge base"
+msgstr "Doorzoek de Kennisbank"
+
+#: includes/kbx-floating-search-widget.php:38
+msgid "No results found for "
+msgstr "Geen resultaten gevonden voor"
+
+#: includes/kbx-floating-search-widget.php:43
+msgid "Type your search string. Minimum 4 characters are required."
+msgstr "Typ uw zoekterm. Er zijn minimaal 4 tekens nodig."
+
+#: includes/kbx-floating-search-widget.php:50
+#, fuzzy
+msgid "close me"
+msgstr "Sluit me"
+
+#: includes/kbx-floating-search-widget.php:59 kbx-help.php:13
+msgid "Help"
+msgstr "Help"
+
+#: includes/kbx-load-assets.php:117
+msgid "Import Articles"
+msgstr "Artikelen importeren"
+
+#: includes/kbx-post-type.php:25 includes/kbx-post-type.php:26
+#: includes/kbx-post-type.php:51 kbx-help.php:47
+msgid "Knowledgebase"
+msgstr "Kennisbank"
+
+#: includes/kbx-post-type.php:27
+msgid "Knowledgebase Pro"
+msgstr "Kennisbank Pro"
+
+#: includes/kbx-post-type.php:28
+msgid "Knowledgebase Article"
+msgstr "Kennisbank Artikel"
+
+#: includes/kbx-post-type.php:29
+msgid "Parent Article"
+msgstr "Hoofd Artikel"
+
+#: includes/kbx-post-type.php:30
+msgid "All Articles"
+msgstr "Alle Artikelen"
+
+#: includes/kbx-post-type.php:31 includes/kbx-post-type.php:32
+msgid "Add New Article"
+msgstr "Nieuw Artikel Toevoegen"
+
+#: includes/kbx-post-type.php:33
+msgid "New Article"
+msgstr "Nieuw Artikel"
+
+#: includes/kbx-post-type.php:34
+msgid "Edit Article"
+msgstr "Artikel Bewerken"
+
+#: includes/kbx-post-type.php:35
+msgid "Update Article"
+msgstr "Artikel Updaten"
+
+#: includes/kbx-post-type.php:36
+msgid "View Article"
+msgstr "Bekijk Artikel"
+
+#: includes/kbx-post-type.php:37
+msgid "Search Article"
+msgstr "Artikel Zoeken"
+
+#: includes/kbx-post-type.php:38
+msgid "Not found"
+msgstr "Niet Gevonden"
+
+#: includes/kbx-post-type.php:39
+msgid "Not found in Trash"
+msgstr "Niet Gevonden in de Prullenbak"
+
+#: includes/kbx-post-type.php:50
+msgid "kbx_knowledgebase"
+msgstr "kbx_knowledgebase"
+
+#: includes/kbx-post-type.php:131
+msgid "Section"
+msgstr "Sectie"
+
+#: includes/kbx-post-type.php:133
+msgid "All Sections"
+msgstr "Alle Secties"
+
+#: includes/kbx-post-type.php:134
+msgid "Parent Section"
+msgstr "Hoofd Sectie"
+
+#: includes/kbx-post-type.php:135
+msgid "Parent Section:"
+msgstr "Hoofd Sectie:"
+
+#: includes/kbx-post-type.php:136
+msgid "New Section Name"
+msgstr "Nieuwe Sectienaam"
+
+#: includes/kbx-post-type.php:137
+msgid "Add New Section"
+msgstr "Toevoegen Nieuw Sectie "
+
+#: includes/kbx-post-type.php:138
+msgid "Edit Section"
+msgstr "Sectie Bewerken"
+
+#: includes/kbx-post-type.php:139
+msgid "Update Section"
+msgstr "Sectie Updaten"
+
+#: includes/kbx-post-type.php:140
+msgid "View Section"
+msgstr "Sectie Bekijken"
+
+#: includes/kbx-post-type.php:141
+msgid "Separate sections with commas"
+msgstr "Secties scheiden met komma's"
+
+#: includes/kbx-post-type.php:142
+msgid "Add or remove sections"
+msgstr "Secties toevoegen of verwijderen"
+
+#: includes/kbx-post-type.php:143
+msgid "Choose from the most used"
+msgstr "Kies uit de meest gebruikte"
+
+#: includes/kbx-post-type.php:144
+msgid "Popular Sections"
+msgstr "Populaire Secties"
+
+#: includes/kbx-post-type.php:145
+msgid "Search Sections"
+msgstr "Secties Zoeken"
+
+#: includes/kbx-post-type.php:146
+msgid "Not Found"
+msgstr "Niet gevonden"
+
+#: includes/kbx-post-type.php:147
+msgid "No sections"
+msgstr "Geen secties"
+
+#: includes/kbx-post-type.php:148
+msgid "Sections list"
+msgstr "Sectielijst"
+
+#: includes/kbx-post-type.php:149
+msgid "Sections list navigation"
+msgstr "Secties lijst navigatie"
+
+#: includes/kbx-post-type.php:173
+msgid "Tag"
+msgstr "Tag"
+
+#: includes/kbx-utilities.php:36
+msgid "&laquo;"
+msgstr "&laquo;"
+
+#: includes/kbx-utilities.php:37
+msgid "&raquo;"
+msgstr "&raquo;"
+
+#: includes/kbx-utilities.php:115
+msgid "All"
+msgstr "Alle"
+
+#: includes/kbx-utilities.php:391
+msgid "Home"
+msgstr "Home"
+
+#: includes/kbx-utilities.php:595
+msgid "Page"
+msgstr "Pagina"
+
+#: includes/kbx-utilities.php:605
+msgid "Error 404"
+msgstr "Fout 404"
+
+#: kbx-help.php:12
+msgid "Knowledgebase Help"
+msgstr "Kennisbank Hulp"
+
+#: kbx-help.php:31
+msgid "Knowledgebase - Help"
+msgstr "Kennisbank - Hulp"
+
+#: kbx-help.php:33
+#, fuzzy
+msgid ""
+" You need to use shortcodes to display article search page or glossary page. "
+"Copy the below shortcodes as per your requirement and put in your post or "
+"page."
+msgstr ""
+"Je moet shortcodes gebruiken om artikel zoekpagina of woordenlijst pagina "
+"weer te geven. Kopieer de onderstaande shortcodes als per uw eis en zet in "
+"uw post of pagina."
+
+#: kbx-help.php:34
+msgid "Shortcodes"
+msgstr "Shortcodes"
+
+#: kbx-help.php:36
+msgid "for article search page with category tiles."
+msgstr "voor artikel zoekpagina met categorie tegels."
+
+#: kbx-help.php:39
+msgid "for glossary page."
+msgstr "voor de woordenlijst pagina."
+
+#: kbx-help.php:47
+msgid "Settings options are self explanatory. These can be found under"
+msgstr "Instellingen opties zijn vanzelfsprekend. Deze zijn te vinden onder"
+
+#: kbx-help.php:52 kbx-help.php:55
+msgid "Widgets"
+msgstr "Widgets"
+
+#: kbx-help.php:55
+msgid "Widgets can be found under"
+msgstr "Widgets zijn te vinden onder"
+
+#: kbx-help.php:55
+msgid "Appearence"
+msgstr "Uiterlijk"
+
+#: kbx-help.php:58
+msgid "There are two avilable widgets. These are"
+msgstr "Er zijn twee beschikbare widgets. Dit zijn"
+
+#: kbx-help.php:60
+msgid "Sorting Options: Date, Popularity, Views"
+msgstr "Sorteeropties: datum, populariteit, weergaven"
+
+#: kbx-help.php:61
+msgid "Knowledgebase Tag Cloud"
+msgstr "Kennisbank Tag Wolk"
+
+#: kbx-help.php:67
+msgid "Custom Templating"
+msgstr "Aangepaste sjablonen"
+
+#: kbx-help.php:70
+msgid ""
+"To design custom template for <strong>Archive</strong>,<strong>Articles "
+"Section</strong>,<strong> Article Search</strong>  & <strong>Article Detail</"
+"strong> page, you have to put <strong>kbhd</strong>  folder into your active "
+"theme root folder. Where"
+msgstr ""
+"Om aangepaste sjabloon te ontwerpen voor het <strong>Archief</strong>,"
+"<strong>Artikelen Sectie</strong>,<strong> Artikel Zoeken</strong> & "
+"<strong>Artikel Detail</strong> pagina, moet je <strong>kbhd</strong> map "
+"zetten in uw actieve thema root map. Waar"
+
+#: kbx-help.php:73
+#, fuzzy
+msgid "is for <strong>Archive</strong> page "
+msgstr "is voor <strong>Archief</strong> pagina"
+
+#: kbx-help.php:74
+#, fuzzy
+msgid ""
+"is for <strong>Articles Section</strong> or <strong>Articles Category</"
+"strong>  page "
+msgstr ""
+"is voor <strong>artikelen sectie</strong> of <strong>artikelen categorie</"
+"strong> pagina"
+
+#: kbx-help.php:75
+#, fuzzy
+msgid "is for <strong>Article Search</strong> page "
+msgstr "is voor <strong>artikel Zoek</strong> pagina"
+
+#: kbx-help.php:76
+#, fuzzy
+msgid " is for <strong>Article Detail</strong> page "
+msgstr "is voor <strong>artikel detail</strong> pagina"
+
+#: kbx-help.php:78
+#, fuzzy
+msgid ""
+" After placing template files into root directory of your active theme "
+"folder, now you can write custom style (CSS)  in your <strong>style.css</"
+"strong> file which will be implemented in Knowledgebase templates."
+msgstr ""
+"Na het plaatsen van template bestanden in de root directory van uw actieve "
+"thema map, nu u schrijven Custom Style (CSS) in uw <strong>Style. CSS</"
+"strong> bestand dat zal worden geïmplementeerd in de Knowledgebase templates."
+
+#: kbx-help.php:79
+#, fuzzy
+msgid ""
+" <strong>Warning : </strong> Don't rename <strong>kbhd</strong>  folder name."
+msgstr ""
+"<strong>Waarschuwing:</strong> Niet de naam van <strong>kbhd</strong> "
+"mapnaam."
+
+#: qc-promo-page/main-part-file.php:12 qc-promo-page/main-part-file.php:225
+msgid "QuantumCloud"
+msgstr "QuantumCloud"
+
+#: qc-promo-page/main-part-file.php:34 qc-promo-page/promo-page.php:12
+msgid "More WordPress Goodies for You!"
+msgstr "Meer WordPress Goodies voor jou!"
+
+#: qc-promo-page/main-part-file.php:48
+msgid "SIMPLE LINK DIRECTORY"
+msgstr "EENVOUDIGE LINK DIRECTORY"
+
+#: qc-promo-page/main-part-file.php:49
+msgid ""
+"Directory plugin with a unique approach to curate topic focused website link "
+"lists. Curate gorgeous Link Resources, Partners, Vendors Directories."
+msgstr ""
+"Directory-plug-in met een unieke benadering voor het beheren van op een "
+"onderwerp gerichte lijsten met websitelinks. Curate Prachtig Koppel bronnen, "
+"partners, leveranciersmappen."
+
+#: qc-promo-page/main-part-file.php:50 qc-promo-page/main-part-file.php:60
+#: qc-promo-page/main-part-file.php:70 qc-promo-page/main-part-file.php:80
+#: qc-promo-page/main-part-file.php:90 qc-promo-page/main-part-file.php:100
+msgid "Download Now"
+msgstr "Download Nu"
+
+#: qc-promo-page/main-part-file.php:58
+msgid "INFOGRAPHICS AND LIST BUILDER ILIST"
+msgstr "INFOGRAPHICS EN LIJST BOUWER ILIST"
+
+#: qc-promo-page/main-part-file.php:59
+msgid ""
+"Infographics & elegant Lists are now easy to create with iList. Build HTML, "
+"Responsive infographics & simple Text or Image Lists quickly."
+msgstr ""
+"Infographics & elegante lijsten zijn nu eenvoudig te maken met iList. Bouw "
+"HTML, Responsieve infographics en eenvoudige tekst- of beeldlijsten snel."
+
+#: qc-promo-page/main-part-file.php:68
+msgid "PORTFOLIO X"
+msgstr "PORTFOLIO X"
+
+#: qc-promo-page/main-part-file.php:69
+msgid ""
+"Portfolio X is an advanced portfolio manager with streamlined workflow and "
+"unique designs to showcase your works. Slideshow and Widgets included."
+msgstr ""
+"Portfolio X is een geavanceerde portfolio manager met gestroomlijnde "
+"workflow en unieke ontwerpen om uw werken te demonstreren. Slideshow en "
+"widgets inbegrepen."
+
+#: qc-promo-page/main-part-file.php:78
+msgid "WOOCOMMERCE SHOP ASSISTANT JARVIS"
+msgstr "WOOCOMMERCE WINKEL ASSISTENT JARVIS"
+
+#: qc-promo-page/main-part-file.php:79
+msgid ""
+"WooCommerce shops now have JARVIS - unique shop assistant to increase sales! "
+"PopUp Message, Recently Viewed, Advanced Search in 1 window!"
+msgstr ""
+"WooCommerce winkels hebben nu JARVIS-unieke winkel assistent om de verkoop "
+"te verhogen! PopUp bericht, onlangs bekeken, Geavanceerd zoeken in 1 venster!"
+
+#: qc-promo-page/main-part-file.php:88
+msgid "WOO TABBED CATEGORY PRODUCT LISTING"
+msgstr "WOO TABBED CATEGORIE PRODUCT LISTING"
+
+#: qc-promo-page/main-part-file.php:89
+msgid ""
+"WooCommerce addon to display Category based Product Listing in tab format on "
+"any page with a short code."
+msgstr ""
+"WooCommerce-addon om op categorie gebaseerde productvermeldingen weer te "
+"geven in tabbladformaat op elke pagina met een shortcode."
+
+#: qc-promo-page/main-part-file.php:98
+msgid "SEO HELP"
+msgstr "SEO HULP"
+
+#: qc-promo-page/main-part-file.php:99
+msgid ""
+"SEO Help provides helpful hints to generate LinkBait titles. Increase your "
+"Click Through Rate or CTR. Write better contents with SEO tips."
+msgstr ""
+"SEO Help biedt nuttige tips om LinkBait titels te genereren. Verhoog uw klik "
+"door tarief of CTR. Schrijf betere inhoud met SEO tips."
+
+#: qc-promo-page/main-part-file.php:122
+msgid "More QuantumCloud Services"
+msgstr "Meer QuantumCloud diensten"
+
+#: qc-promo-page/main-part-file.php:139
+msgid "Creative Web Design"
+msgstr "Creatieve web design"
+
+#: qc-promo-page/main-part-file.php:141
+msgid ""
+"Creative and custom web design to maximize user experience through "
+"responsive, eye catching, user-friendly and interactive functionality."
+msgstr ""
+"Creatief en aangepast webontwerp om de gebruikerservaring te maximaliseren "
+"door middel van responsieve, opvallende, gebruikersvriendelijke en "
+"interactieve functionaliteit."
+
+#: qc-promo-page/main-part-file.php:153
+msgid "Advanced Web Development"
+msgstr "Geavanceerde Web Development"
+
+#: qc-promo-page/main-part-file.php:155
+msgid ""
+"Whether you need a SAAS web application, CRM or custom extension to your "
+"favorite CMS like WordPress we can create elegant, custom web applications "
+"specific to your own and unique requirements."
+msgstr ""
+"Of u nu een SAAS web applicatie, CRM of aangepaste uitbreiding van uw "
+"favoriete CMS zoals WordPress we kunnen creëren elegante, aangepaste web "
+"applicaties die specifiek zijn voor uw eigen en unieke eisen."
+
+#: qc-promo-page/main-part-file.php:167
+msgid "SEO and Digital Marketing"
+msgstr "SEO en digitale marketing"
+
+#: qc-promo-page/main-part-file.php:169
+msgid ""
+"At QuantumCloud, our priority is to help your business grow. Our "
+"professional SEO services are the last pieces of the puzzle to ensure "
+"success of your online venture and business."
+msgstr ""
+"Op QuantumCloud, onze prioriteit is om te helpen uw bedrijf te laten "
+"groeien. Onze professionele diensten SEO zijn de laatste stukken van de "
+"raadsel om succes van uw online onderneming en zaken te verzekeren."
+
+#: qc-promo-page/main-part-file.php:181
+msgid "Mobile App Development"
+msgstr "Mobiele app ontwikkeling"
+
+#: qc-promo-page/main-part-file.php:183
+msgid ""
+"Combining native and hybrid mobile app development expertise, we offer iOS "
+"and Android mobile development under one budget. We specialize in cross-"
+"platform and hybrid mobile apps."
+msgstr ""
+"De combinatie van native en hybride mobiele app ontwikkeling expertise, "
+"bieden wij iOS en Android mobiele ontwikkeling onder een budget. Wij zijn "
+"gespecialiseerd in cross-platform en hybride mobiele apps."
+
+#: qc-promo-page/main-part-file.php:195
+msgid "WordPress Development"
+msgstr "WordPress ontwikkeling"
+
+#: qc-promo-page/main-part-file.php:197
+msgid ""
+"We are WordPress Developers and We Create Beautiful & SEO Friendly WordPress "
+"Websites. Theme Customization to Custom WordPress Plugin Development - We "
+"are the Gurus."
+msgstr ""
+"Wij zijn WordPress ontwikkel en wij creëren mooie & SEO vriendelijke "
+"WordPress websites. Thema aanpassing aan Custom WordPress plugin "
+"ontwikkeling - Wij zijn de Goeroes."
+
+#: qc-promo-page/main-part-file.php:207
+msgid "WordPress Theme Customization"
+msgstr "WordPress Thema Aanpassingen"
+
+#: qc-promo-page/main-part-file.php:209
+msgid ""
+"We will customize your chosen WordPress theme, add extra plugins and add "
+"pages & contents to create a complete and functional website for your "
+"business. . We have extensive experiences working with premium themes from "
+"themeforest and other market places."
+msgstr ""
+"We zullen het door u gekozen WordPress-thema aanpassen, extra plug-ins "
+"toevoegen en pagina's en inhoud toevoegen om een complete en functionele "
+"website voor uw bedrijf te maken. . We hebben uitgebreide ervaringen met "
+"premiumthema's van themaborsten en andere marktplaatsen."
+
+#: qc-promo-page/main-part-file.php:225
+msgid "Web Design Company"
+msgstr "Webdesign bedrijf"
+
+#: qc-promo-page/promo-page.php:13
+msgid "More"
+msgstr "Meer"
+
+#: qc-support-promo-page/class-qc-support-promo-page.php:36
+msgid ""
+"Problem in processing your form submission request! Apologies for the "
+"inconveniences.<br> \n"
+"Please email to <span style=\"color:#22A0C9;font-weight:bold !important;font-"
+"size:14px \"> quantumcloud@gmail.com </span> with any feedback. We will get "
+"back to you right away!"
+msgstr ""
+"Probleem bij de verwerking van uw aanvraagformulier indiening! Excuses voor "
+"de ongemakken.<br> \n"
+"Stuur een email naar <span style=\"color:#22A0C9;font-weight:bold !important;"
+"font-size:14px \">quantumcloud@gmail.com</span> met alle feedback. We nemen "
+"dan spoedig contact met je op!"
+
+#: qc-support-promo-page/class-qc-support-promo-page.php:97
+msgid "Your email was sent successfully. Thanks!"
+msgstr "Uw e-mail is met succes verzonden. Bedankt!"
+
+#: views/bot-templates/template-00/shortcode.php:24
+#: views/bot-templates/template-00/template.php:21
+#: views/bot-templates/template-01/shortcode.php:23
+#: views/bot-templates/template-01/template.php:19
+#: views/bot-templates/template-02/shortcode.php:24
+#: views/bot-templates/template-02/template.php:20
+#: views/bot-templates/template-03/shortcode.php:23
+#: views/bot-templates/template-03/template.php:19
+msgid "Send a message."
+msgstr "Verzend een bericht"
+
+#: views/bot-templates/template-00/shortcode.php:26
+#: views/bot-templates/template-00/template.php:23
+#: views/bot-templates/template-01/shortcode.php:25
+#: views/bot-templates/template-01/template.php:21
+#: views/bot-templates/template-02/shortcode.php:26
+#: views/bot-templates/template-02/template.php:22
+#: views/bot-templates/template-03/shortcode.php:25
+#: views/bot-templates/template-03/template.php:21
+#, fuzzy
+msgid "send"
+msgstr "Waarheen wij uw gegevens verzenden"
+
+#: views/general/archive-kbx_knowledgebase.php:18
+msgid "Knowledebase Articles"
+msgstr "Kennisbank Artikelen"
+
+#: views/general/archive-kbx_knowledgebase.php:47
+#: views/templates/basic/kbx-faq.php:19
+#: views/templates/basic/template-articles.php:19
+msgid "Sort By"
+msgstr "Sorteer op"
+
+#: views/general/archive-kbx_knowledgebase.php:48
+#: views/templates/basic/kbx-faq.php:20
+#: views/templates/basic/template-articles.php:20
+msgid "Sort by Default"
+msgstr "Standaard Sortering"
+
+#: views/general/archive-kbx_knowledgebase.php:49
+#: views/templates/basic/kbx-faq.php:21
+#: views/templates/basic/template-articles.php:21
+msgid "Sort A-Z"
+msgstr "Sorteer A-Z"
+
+#: views/general/archive-kbx_knowledgebase.php:50
+#: views/templates/basic/kbx-faq.php:22
+#: views/templates/basic/template-articles.php:22
+msgid "Sort by Popularity"
+msgstr "Sorteren op Populariteit"
+
+#: views/general/archive-kbx_knowledgebase.php:51
+#: views/templates/basic/kbx-faq.php:23
+#: views/templates/basic/template-articles.php:23
+msgid "Sort by Views"
+msgstr "Sorteren op Weergaven"
+
+#: views/general/archive-kbx_knowledgebase.php:86
+#: views/general/taxonomy-kbx_category.php:51
+#: views/templates/basic/kbx-faq.php:56
+#: views/templates/basic/template-articles.php:64
+#: views/templates/basic/template-glossary.php:50
+msgid "No articles found under this section."
+msgstr "Geen artikelen gevonden onder deze sectie."
+
+#: views/general/search-kbx_knowledgebase.php:25
+msgid "Search Results For: "
+msgstr "Zoekresultaten voor: "
+
+#: views/general/search-kbx_knowledgebase.php:62
+msgid "No articles found as per your search query."
+msgstr "Geen artikelen gevonden aan de hand van jouw zoekopdracht."
+
+#: views/general/single-kbx_knowledgebase.php:53
+msgid "No article found according to the provided URL."
+msgstr "Geen artikel gevonden volgens de verstrekte URL."
+
+#: views/templates/basic/template.php:40
+#, fuzzy
+msgid "articles"
+msgstr "Alle Artikelen"

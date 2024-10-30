@@ -1,0 +1,275 @@
+/*
+01. Ball content
+02. Woo Chat bot Message container
+    -A Link Item
+    -B Loading
+03. Woo Chat bot Message Editor
+04. Woo Chat bottom Tab Nav Editor
+05. Tab Feature Product
+06. Tab Cart
+07. Product Details
+*/
+/*********************
+01. Ball content wrapper
+**********************/
+.kbx-bot-container {
+    /*width: 420px;*/
+    border-radius: 5px;
+}
+
+/******************************
+02. Woo Chat bot Message container
+*********************************/
+.kbx-bot-container{
+    background: url("../../../assets/images/tpl-two-bg.png") no-repeat center center;
+}
+.kbx-bot-header {
+    background-color: rgba(38, 176, 187, 0.90);
+
+}
+
+.kbx-bot-header h3 {
+    color: #ffffff;
+    font-size: 18px !important;
+    letter-spacing: 1px;
+}
+
+.kbx-bot-content {
+
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+ul.kbx-bot-messages-container {
+    padding: 0;
+    margin: 0;
+    overflow: visible;
+}
+
+ul.kbx-bot-messages-container li {
+    font-size: 14px;
+}
+
+ul.kbx-bot-messages-container > li.kbx-bot-user-msg:after, ul.kbx-bot-messages-container > li .kbx-bot-products:after {
+    clear: both;
+    display: block;
+    content: "";
+    height: 1px;
+}
+
+#kbx-bot-messages-container .kbx-bot-avatar img, .kbx-bot-agent-profile .kbx-bot-widget-avatar img {
+    width: 25px !important;
+    height: 25px !important;
+}
+
+ul.kbx-bot-messages-container > li > .kbx-bot-avatar, .kbx-bot-agent-profile .kbx-bot-widget-avatar {
+    position: absolute;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 2px solid rgba(255, 255, 255, 0.62);
+    width: 25px;
+    height: 25px;
+    margin-top: -17px;
+    top: 50%;
+}
+
+ul.kbx-bot-messages-container > li.kbx-bot-msg .kbx-bot-avatar, .kbx-bot-agent-profile .kbx-bot-widget-avatar {
+    left: -35px;
+}
+
+ul.kbx-bot-messages-container > li.kbx-bot-user-msg .kbx-bot-avatar {
+    right: -35px;
+}
+
+ul.kbx-bot-messages-container > li > .kbx-bot-paragraph, .kbx-bot-bubble {
+    padding: 8px 15px;
+    display: block;
+    background-color: rgba(38, 176, 187, 0.75);
+    position: relative;
+    box-sizing: border-box;
+    border-radius: 2px;
+    color: #FFF;
+    line-height: 150%;
+}
+
+ul.kbx-bot-messages-container > li > .kbx-bot-paragraph:before, .kbx-bot-bubble:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 0;
+    height: 0;
+    margin-top: -7px;
+
+}
+
+ul.kbx-bot-messages-container > li.kbx-bot-user-msg > .kbx-bot-paragraph:before {
+    right: -10px;
+    border-top: 7px solid transparent;
+    border-left: 10px solid rgba(38, 176, 187, 0.75);
+    border-bottom: 7px solid transparent;
+}
+
+ul.kbx-bot-messages-container > li.kbx-bot-msg > .kbx-bot-paragraph:before, .kbx-bot-bubble:before {
+    left: -10px;
+    border-top: 7px solid transparent;
+    border-right: 10px solid rgba(38, 176, 187, 0.75);
+    border-bottom: 7px solid transparent;
+}
+
+ul.kbx-bot-messages-container > li.kbx-bot-user-msg .kbx-bot-paragraph {
+    text-align: right;
+}
+
+/************ 02.A Loading *******************/
+ul.kbx-bot-messages-container > li .kbx-bot-paragraph img.kbx-bot-comment-loader {
+    background-color: #fff;
+    padding: 1px;
+    border-radius: 5px;
+    margin: 0 auto;
+    display: block;
+}
+
+/************02.B Link Item*************/
+span.kbx-bot-article-category,
+span.kbx-bot-support-items,
+span.kbx-bot-wildcard,
+span.kbx-bot-find-more,
+span.kbx-bot-suggest-email,
+span.kbx-bot-reset-btn,
+#kbx-bot-loadmore {
+    color: #000000;
+    background-image: linear-gradient(to right, #a1c4fd 0%, #c2e9fb 51%, #a1c4fd 100%);
+    background-size: 200% auto;
+    box-shadow: 0 5px 15px #c3c3c3;
+    border: 1px solid #ffffff;
+}
+
+span.kbx-bot-article-category:hover,
+span.kbx-bot-support-items:hover,
+span.kbx-bot-wildcard:hover,
+span.kbx-bot-find-more:hover,
+span.kbx-bot-suggest-email:hover,
+span.kbx-bot-reset-btn:hover,
+#kbx-bot-loadmore:hover {
+    background-position: right center;
+    box-shadow: none;
+}
+
+/*******************************
+03. Woo Chat bottom Tab Nav Editor
+**********************************/
+.kbx-bot-footer {
+    background-color: #26B0BB;
+}
+
+/*******************************
+04. Woo Chat bot Message Editor
+**********************************/
+
+.kbx-bot-editor-container {
+    border-bottom: 1px solid #1398a2;
+
+}
+
+.kbx-bot-editor-container input {
+    color: #ffffff;
+}
+
+.kbx-bot-editor-container input::placeholder {
+    color: #ffffff;
+}
+
+.kbx-bot-editor-container input::-webkit-input-placeholder {
+    color: #ffffff;
+}
+
+.kbx-bot-editor-container input::-moz-placeholder {
+    color: #ffffff;
+}
+
+.kbx-bot-editor-container input:-ms-input-placeholder {
+    color: #ffffff;
+}
+
+.kbx-bot-editor-container input:-moz-placeholder {
+    color: #ffffff;
+}
+
+/******************************************
+05. Tab Feature Product
+******************************************/
+.kbx-bot-agent-profile {
+    position: relative;
+    box-sizing: border-box;
+    word-wrap: break-word;
+    list-style: none;
+    display: block;
+    clear: both;
+    line-height: 150%;
+    min-height: 50px;
+    margin: 0 0 10px 0;
+}
+
+.kbx-bot-widget-title {
+    color: #353535;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+/*********************************************
+06. Tab Cart
+*******************************************/
+.kbx-bot-cart-header {
+    background-color: #F5F5F5;
+}
+
+.kbx-bot-cart-single {
+    background-color: rgba(245, 245, 245, 0.1);
+    border-bottom: 1px solid #dddddd;
+}
+
+.kbx-bot-cart-single:nth-child(2n+1) {
+    background-color: rgba(245, 245, 245, 0.5);
+}
+
+.kbx-bot-cart-footer div a {
+    text-decoration: none;
+    background: #70aca9;
+    color: #ffffff;
+}
+
+.kbx-bot-cart-footer div a:hover, .kbx-bot-cart-footer div:last-child a {
+    background: #5a8c89;
+}
+
+/******************************************
+07. Product Details
+*******************************************/
+.kbx-bot-product-details {
+    box-shadow: 0 0 10px #ccc;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.active-chatbot-product-details {
+    margin-right: -5px;
+}
+
+.kbx-bot-product-cart-button input[type="button"], #kbx-bot-loadmore {
+    border: 1px solid #26B0BB;
+    background: #26B0BB;
+    color: #ffffff;
+    box-shadow: 0 0 2px #999;
+}
+
+.kbx-bot-product-cart-button input[type="button"]:hover, #kbx-bot-loadmore:hover {
+    background: #229da7;
+    color: #ffffff;
+}
+
+@media screen and (max-width: 767px) {
+    .kbx-bot-container {
+        width: 270px;
+    }
+
+}
+

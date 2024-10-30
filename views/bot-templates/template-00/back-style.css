@@ -1,0 +1,186 @@
+/*********************
+ball content wrapper
+**********************/
+.kbx-bot-board-container {
+    background: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 5px 40px rgba(0, 0, 0, .30);
+
+}
+
+.kbx-bot-board-container:after {
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: -26px;
+    width: 0;
+    height: 0;
+    border-left: 30px solid transparent;
+    border-right: 0 solid transparent;
+    border-top: 30px solid #ffffff;
+}
+
+/******************************
+kbx bot  Message container
+*********************************/
+
+.kbx-bot-header {
+    background: #1f8ceb;
+}
+
+.kbx-bot-header h3 {
+    color: #ffffff;
+    font-size: 18px !important;
+    letter-spacing: 1px;
+}
+
+.kbx-bot-content {
+    background: url("../../../assets/images/message-bg.png") no-repeat top center;
+}
+
+ul.kbx-bot-messages-container li {
+    font-size: 14px;
+}
+
+ul.kbx-bot-messages-container > li.kbx-bot-msg {
+    padding-left: 50px;
+}
+
+ul.kbx-bot-messages-container > li.kbx-bot-user-msg {
+    padding-right: 50px;
+}
+
+ul.kbx-bot-messages-container > li .kbx-bot-avatar {
+    position: absolute;
+    top: 0;
+    width: 40px;
+    height: auto;
+}
+
+ul.kbx-bot-messages-container > li.kbx-bot-msg .kbx-bot-avatar {
+    left: 0;
+}
+
+ul.kbx-bot-messages-container > li.kbx-bot-user-msg .kbx-bot-avatar {
+    right: 0;
+}
+
+ul.kbx-bot-messages-container > li > .kbx-bot-paragraph {
+    padding: 10px;
+    max-width: 90%;
+    /*display: table;*/
+}
+
+ul.kbx-bot-messages-container > li.kbx-bot-user-msg .kbx-bot-paragraph {
+    text-align: right;
+    float: right;
+}
+
+ul.kbx-bot-messages-container > li.kbx-bot-user-msg .kbx-bot-paragraph {
+    background-color: #eaf1f6;
+    color: #494949;
+    margin-left: 10%;
+    border-radius: 10px 10px 0 10px;
+}
+
+ul.kbx-bot-messages-container > li.kbx-bot-msg .kbx-bot-paragraph {
+    background-color: #1f8ceb;
+    color: #ffffff;
+    border-radius: 0 10px 10px 10px;
+}
+
+ul.kbx-bot-messages-container li:first-child.kbx-bot-msg .kbx-bot-paragraph {
+    background-color: transparent;
+    color: #494949;
+}
+
+/*******************************
+kbx bot bottom Tab Nav Editor
+**********************************/
+.kbx-bot-footer {
+    padding: 5px 0;
+}
+
+.kbx-bot-tab-nav ul li a {
+    background-color: #1f8ceb;
+}
+
+.kbx-bot-tab-nav ul li a.kbx-bot-operation-active {
+    background-color: #ae34ff;
+}
+
+/*******************************
+kbx bot Message Editor
+**********************************/
+.kbx-bot-editor-container {
+    background-color: #f2f6f9;
+}
+
+.kbx-bot-editor-container input, .kbx-bot-editor-area input::-webkit-input-placeholder, .kbx-bot-editor-area input::-moz-placeholder, .kbx-bot-editor-area input:-ms-input-placeholder, .kbx-bot-editor-area input:-moz-placeholder {
+    color: #565867;
+}
+
+/**************Tab Feature Product***************/
+.kbx-bot-widget-title {
+    color: #353535;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+/**************Tab Cart***************/
+.kbx-bot-cart-header {
+    background-color: #F5F5F5;
+}
+
+.kbx-bot-cart-single {
+    background-color: rgba(245, 245, 245, 0.1);
+    border-bottom: 1px solid #dddddd;
+}
+
+.kbx-bot-cart-single:nth-child(2n+1) {
+    background-color: rgba(245, 245, 245, 0.5);
+}
+
+.kbx-bot-cart-footer div a {
+    text-decoration: none;
+    background: #1f8ceb;
+    color: #ffffff;
+}
+
+.kbx-bot-cart-footer div a:hover, .kbx-bot-cart-footer div:last-child a {
+    background: #1c7ed4;
+}
+
+/****************************
+Loading
+*******************************/
+ul.kbx-bot-messages-container > li .kbx-bot-paragraph img.kbx-bot-comment-loader {
+    background-color: #fff;
+    padding: 1px;
+    border-radius: 5px;
+}
+
+.kbx-bot-comment-loader {
+    margin: 0 auto;
+    display: block;
+}
+
+/****** Product Details*******/
+.kbx-bot-product-details {
+    box-shadow: 0 0 10px #ccc;
+    background-color: #ffffff;
+}
+
+.kbx-bot-product-cart-button input[type="button"] {
+    border: 1px solid #e4e5e7;
+    background: #1f8ceb;
+    color: #ffffff;
+    box-shadow: 0 0 2px #999;
+}
+
+.kbx-bot-product-cart-button input[type="button"]:hover {
+    background: #1c7ed4;
+    color: #ffffff;
+}
+
+/**/

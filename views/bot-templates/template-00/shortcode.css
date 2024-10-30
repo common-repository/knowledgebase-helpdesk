@@ -1,0 +1,166 @@
+/*
+    1.ShortCode Grid
+    2.Woo Chat bot Message container
+*/
+/**********************************************************************************
+1. ShortCode Grid
+**********************************************************************************/
+.kbx-bot-shortcode-template-00 {
+    font-family: "quicksandregular", "Helvetica Neue", Helvetica, Aria;
+    height: auto;
+    max-width: 1100px;
+    margin: 0 auto;
+    position: relative;
+    box-sizing: border-box;
+    border-radius: 5px;
+    box-shadow: 0 5px 40px rgba(0, 0, 0, .10);
+    background: #ffffff;
+}
+
+.kbx-bot-shortcode-template-00 .kbx-bot-container {
+    width: 100%;
+    background-color: #f6f6fc;
+}
+
+/***************************************************************************************************
+2. Woo Chat bot Message container
+****************************************************************************************************/
+
+.kbx-bot-header h3 {
+    color: #fff;
+}
+ul.kbx-bot-messages-container{
+    padding: 0 !important;
+    margin: 0;
+}
+ul.kbx-bot-messages-container li {
+    font-size: 14px;
+}
+
+ul.kbx-bot-messages-container > li.kbx-bot-msg {
+    padding-left: 50px;
+}
+
+ul.kbx-bot-messages-container > li.woo-chat-user-msg {
+    padding-right: 50px;
+}
+
+ul.kbx-bot-messages-container > li .kbx-bot-avatar, .kbx-bot-agent-profile .kbx-bot-widget-avatar  {
+    position: absolute;
+    top: 0;
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+ul.kbx-bot-messages-container > li.kbx-bot-msg .kbx-bot-avatar, .kbx-bot-agent-profile .kbx-bot-widget-avatar  {
+    left: 0;
+}
+
+ul.kbx-bot-messages-container > li.woo-chat-user-msg .kbx-bot-avatar {
+    right: 0;
+}
+
+ul.kbx-bot-messages-container > li > .kbx-bot-paragraph, .kbx-bot-agent-profile .kbx-bot-bubble {
+    padding: 8px 15px;
+    max-width: 90%;
+    box-shadow: 0 2px 8px #bfbfbf;
+    line-height: 150%;
+}
+
+ul.kbx-bot-messages-container > li.woo-chat-user-msg .kbx-bot-paragraph {
+    text-align: right;
+    float: right;
+}
+
+ul.kbx-bot-messages-container > li.woo-chat-user-msg .kbx-bot-paragraph {
+    background-color: #eaf1f6;
+    color: #494949;
+    margin-left: 10%;
+    border-radius: 10px 10px 0 10px;
+}
+
+ul.kbx-bot-messages-container > li.kbx-bot-msg .kbx-bot-paragraph, .kbx-bot-agent-profile .kbx-bot-bubble {
+    background-color: #1f8ceb;
+    color: #ffffff;
+    border-radius: 0 10px 10px 10px;
+}
+
+ul.kbx-bot-messages-container li:first-child.kbx-bot-msg .kbx-bot-paragraph {
+    background-color: transparent;
+    color: #494949;
+}
+ul.kbx-bot-messages-container > li > .kbx-bot-paragraph h3 {
+    color: #ffffff;
+}
+ul.kbx-bot-messages-container > li .kbx-bot-paragraph img.kbx-bot-comment-loader {
+    background-color: #fff;
+    padding: 1px;
+    border-radius: 5px;
+    margin: 0 auto;
+    display: block;
+}
+
+
+.kbx-bot-footer {
+    border-radius: 5px;
+}
+
+.kbx-bot-editor-area {
+    border-top: 1px solid #deebe9;
+    border-radius: 0 0 5px 5px;
+    margin: 0;
+    padding: 6px 15px;
+}
+
+.kbx-bot-editor-area input {
+    display: inline-block;
+    border: none;
+    height: 50px;
+    font-family: 'Montserrat', sans-serif;
+    width: 80%;
+    background-color: transparent;
+    color: #565867;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+}
+
+.kbx-bot-editor-area input:focus {
+    outline: none;
+    border: none;
+    box-shadow: none;
+    background: none;
+}
+
+.kbx-bot-editor-area input::-webkit-input-placeholder, .kbx-bot-editor-area input::-moz-placeholder, .kbx-bot-editor-area input:-ms-input-placeholder, .kbx-bot-editor-area input:-moz-placeholder {
+    color: #565867;
+}
+
+.kbx-bot-editor-area button {
+    display: inline-block;
+    height: 50px;
+    background: transparent url("../../../assets/images/send-button.png") no-repeat center;
+    color: transparent;
+    width: 20%;
+    cursor: pointer;
+    margin: 0 0 0 -8px;
+    padding: 0;
+    border: none;
+    outline: none;
+}
+
+.kbx-bot-editor-area button:hover {
+    background: transparent url("../../../assets/images/send-button.png") no-repeat center;
+}
+
+.kbx-bot-editor-area button:focus {
+    outline: none;
+    border: none;
+    box-shadow: none;
+    background: transparent url("../../../assets/images/send-button.png") no-repeat center;
+}
+
+
+

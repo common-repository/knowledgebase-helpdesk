@@ -1,0 +1,213 @@
+/*
+    1.ShortCode Grid
+    2.Woo Chat bot Message container
+
+*/
+/**********************************************************************************
+1. ShortCode Grid
+**********************************************************************************/
+.kbx-bot-shortcode-template-02 {
+    font-family: "quicksandregular", "Helvetica Neue", Helvetica, Aria;
+    height: auto;
+    max-width: 1100px;
+    margin: 0 auto;
+    position: relative;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background: #ffffff;
+}
+
+
+@keyframes Gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.kbx-bot-shortcode-template-02 .kbx-bot-container {
+    width: 100%;
+    background-color: #000;
+    background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB) !important;
+    background-size: 400% 400% !important;
+    animation: Gradient 15s ease infinite !important;
+}
+
+.kbx-bot-shortcode-template-02 .kbx-bot-left-sidebar {
+    background-color: #23A6D5;
+}
+
+.kbx-bot-left-sidebar-inner {
+    overflow-y: auto;
+    max-height: 400px;
+}
+
+/***************************************************************************************************
+2. Woo Chat bot Message container
+****************************************************************************************************/
+.kbx-bot-header {
+    background: rgba(109, 203, 227, 0.50);
+}
+
+.kbx-bot-header h3 {
+    color: #ffffff;
+    font-size: 18px !important;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 1px;
+}
+
+.kbx-bot-comment-loader {
+    margin: 0 auto;
+    display: block;
+}
+
+ul.kbx-bot-messages-container {
+    padding: 0 !important;
+    margin: 0;
+    overflow: visible;
+}
+
+ul.kbx-bot-messages-container > li {
+    font-size: 14px;
+    margin: 0 30px 10px 30px;
+}
+
+ul.kbx-bot-messages-container > li.woo-chat-user-msg:after, ul.kbx-bot-messages-container > li .kbx-bot-products:after {
+    clear: both;
+    display: block;
+    content: "";
+    height: 1px;
+}
+
+#kbx-bot-messages-container .kbx-bot-avatar img, .kbx-bot-agent-profile .kbx-bot-widget-avatar img {
+    width: 25px !important;
+    height: 25px !important;
+}
+
+ul.kbx-bot-messages-container > li > .kbx-bot-avatar, .kbx-bot-agent-profile .kbx-bot-widget-avatar {
+    position: absolute;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 2px solid rgba(255, 255, 255, 0.62);
+    width: 25px;
+    height: 25px;
+    margin-top: -17px;
+    top: 50%;
+}
+
+ul.kbx-bot-messages-container > li.kbx-bot-msg .kbx-bot-avatar, .kbx-bot-agent-profile .kbx-bot-widget-avatar {
+    left: -35px;
+}
+
+ul.kbx-bot-messages-container > li.woo-chat-user-msg .kbx-bot-avatar {
+    right: -35px;
+}
+
+ul.kbx-bot-messages-container > li > .kbx-bot-paragraph, .kbx-bot-bubble {
+    padding: 8px 15px;
+    display: block;
+    background-color: rgba(255, 255, 255, 0.70);
+    position: relative;
+    box-sizing: border-box;
+    border-radius: 2px;
+    color: #000;
+    line-height: 150%;
+}
+
+ul.kbx-bot-messages-container > li > .kbx-bot-paragraph:before, .kbx-bot-bubble:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 0;
+    height: 0;
+    margin-top: -7px;
+
+}
+
+ul.kbx-bot-messages-container > li.woo-chat-user-msg > .kbx-bot-paragraph:before {
+    right: -10px;
+    border-top: 7px solid transparent;
+    border-left: 10px solid rgba(255, 255, 255, 0.70);
+    border-bottom: 7px solid transparent;
+}
+
+ul.kbx-bot-messages-container > li.kbx-bot-msg > .kbx-bot-paragraph:before, .kbx-bot-bubble:before {
+    left: -10px;
+    border-top: 7px solid transparent;
+    border-right: 10px solid rgba(255, 255, 255, 0.70);
+    border-bottom: 7px solid transparent;
+}
+
+ul.kbx-bot-messages-container > li.woo-chat-user-msg .kbx-bot-paragraph {
+    text-align: right;
+}
+
+/********* Footer ****************/
+.kbx-bot-footer {
+    border-radius: 5px;
+}
+
+/******Message Editor ***********/
+
+.kbx-bot-editor-area {
+    border-top: 1px solid #deebe9;
+    border-radius: 0 0 5px 5px;
+    margin: 0;
+    padding: 6px 15px;
+}
+
+.kbx-bot-editor-area input {
+    display: inline-block;
+    border: none;
+    height: 50px;
+    font-family: 'Montserrat', sans-serif;
+    width: 80%;
+    background-color: transparent;
+    color: #FFF !important;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+}
+
+.kbx-bot-editor-area input:focus {
+    outline: none;
+    border: none;
+    box-shadow: none;
+    background: none;
+}
+
+input.kbx-bot-editor::placeholder {
+    color: #ffffff;
+}
+
+.kbx-bot-editor-area button {
+    display: inline-block;
+    height: 50px;
+    background: transparent url("../../../assets/images/send-button.png") no-repeat center;
+    color: transparent;
+    width: 20%;
+    cursor: pointer;
+    margin: 0 0 0 -8px;
+    padding: 0;
+    border: none;
+    outline: none;
+    font-size: 0 !important;
+}
+
+.kbx-bot-editor-area button:hover {
+    background: transparent url("../../../assets/images/send-button.png") no-repeat center;
+}
+
+.kbx-bot-editor-area button:focus {
+    outline: none;
+    border: none;
+    box-shadow: none;
+    background: transparent url("../../../assets/images/send-button.png") no-repeat center;
+}
+

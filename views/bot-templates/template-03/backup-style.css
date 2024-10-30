@@ -1,0 +1,161 @@
+/*********************
+ball content wrapper
+**********************/
+.kbx-bot-container {
+    /*width: 370px;*/
+   display: table;
+    border-radius: 5px;
+    box-shadow: 0 5px 40px rgba(0, 0, 0, .10);
+    background: url("../../../assets/images/tpl-three-bg.jpg") no-repeat top right;
+    background-size: cover;
+}
+
+/******************************
+Kbx bot Message container
+*********************************/
+.kbx-bot-header h3 {
+    color: #ffffff;
+    font-size: 18px !important;
+    letter-spacing: 1px;
+
+}
+ul.kbx-bot-messages-container {
+    padding: 0;
+    margin: 0;
+}
+
+ul.kbx-bot-messages-container > li {
+    padding-left: 22px;
+    font-size: 14px;
+}
+ul.kbx-bot-messages-container > li .kbx-bot-comment-loader {
+    margin: 0 auto;
+    display: block;
+}
+ul.kbx-bot-messages-container > li .kbx-bot-agent {
+    display: block;
+}
+
+
+ul.kbx-bot-messages-container > li > .kbx-bot-avatar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 2px solid rgba(255, 255, 255, 0.62);
+    background-color: #70aca9;
+    width: 40px;
+    height: 40px;
+}
+
+ul.kbx-bot-messages-container > li > .kbx-bot-agent, ul.kbx-bot-messages-container > li > .kbx-bot-paragraph {
+    display: table;
+    position: relative;
+    padding-left: 30px;
+    padding-right: 10px;
+
+}
+
+ul.kbx-bot-messages-container > li > .kbx-bot-agent {
+    padding-top: 2px;
+    padding-bottom: 2px;
+    background-color: #ffffff;
+    font-size: 10px;
+    line-height: 12px;
+    border-radius: 10px 10px 0px 10px;
+}
+
+ul.kbx-bot-messages-container > li > .kbx-bot-paragraph {
+    padding-top: 4px;
+    padding-bottom: 4px;
+    background-color: #36d67c;
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 20px;
+    border-radius: 10px;
+}
+
+ul.kbx-bot-messages-container > li.kbx-bot-user-msg > .kbx-bot-paragraph {
+    background-color: #3a98d8;
+}
+
+/*******************************
+Kbx bot bottom Tab Nav Editor
+**********************************/
+.kbx-bot-tab-nav {
+    padding: 5px 0;
+}
+
+.kbx-bot-tab-nav ul li a {
+    background-color: #000000;
+}
+
+.kbx-bot-tab-nav ul li a.kbx-bot-operation-active {
+    background-color: #ae34ff;
+}
+
+/*******************************
+Kbx  bot Message Editor
+**********************************/
+
+.kbx-bot-editor-container {
+    border-top: 1px solid #deebe9;
+
+}
+
+.kbx-bot-editor-container input, .kbx-bot-editor-area input::-webkit-input-placeholder, .kbx-bot-editor-area input::-moz-placeholder, .kbx-bot-editor-area input:-ms-input-placeholder, .kbx-bot-editor-area input:-moz-placeholder {
+    color: #565867;
+}
+
+/**************Tab Feature Product***************/
+.kbx-bot-widget-title {
+    color: #ffffff;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+/**************Tab Cart***************/
+.kbx-bot-cart-header {
+    background-color: #F5F5F5;
+}
+
+.kbx-bot-cart-single {
+    background-color: rgba(245, 245, 245, 0.1);
+    border-bottom: 1px solid #dddddd;
+}
+
+.kbx-bot-cart-single:nth-child(2n+1) {
+    background-color: rgba(245, 245, 245, 0.5);
+}
+
+.kbx-bot-cart-footer div a {
+    text-decoration: none;
+    background: #36d67c;
+    color: #ffffff;
+}
+
+.kbx-bot-cart-footer div a:hover, .kbx-bot-cart-footer div:last-child a {
+    background: #2fb96b;
+}
+
+
+
+/****** Product Details*******/
+.kbx-bot-product-details {
+    box-shadow: 0 0 10px #ccc;
+    background-color: #f5f5f5;
+}
+
+.kbx-bot-product-cart-button input[type="button"], #kbx-bot-loadmore {
+    border: 1px solid #36d67c;
+    background: #36d67c;
+    color: #ffffff;
+    box-shadow: 0 0 2px #999;
+}
+
+.kbx-bot-product-cart-button input[type="button"]:hover, #kbx-bot-loadmore:hover {
+    background: #2fb96b;
+    color: #ffffff;
+}

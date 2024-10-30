@@ -1,0 +1,354 @@
+/*
+    1.ShortCode Grid
+    2.Kbx bot Message container
+    3.Sidebar
+        -Widget
+        -Agent
+*/
+/**********************************************************************************
+1. ShortCode Grid
+**********************************************************************************/
+.kbx-bot-shortcode-template-03 {
+    font-family: "quicksandregular", "Helvetica Neue", Helvetica, Aria;
+    height: auto;
+    max-width: 1100px;
+    margin: 0 auto;
+    position: relative;
+    box-sizing: border-box;
+    border-radius: 5px;
+    box-shadow: 0 5px 40px rgba(0, 0, 0, .10);
+    background: #ffffff;
+    display: table;
+}
+
+.kbx-bot-shortcode-row {
+    display: table-row;
+    box-shadow: 0 0 10px rgba(102, 122, 255, 0.10);
+}
+
+.kbx-bot-shortcode-template-03 .kbx-bot-container, .kbx-bot-shortcode-template-03 .kbx-bot-sidebar {
+    display: table-cell;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+
+.kbx-bot-shortcode-template-03 .kbx-bot-sidebar {
+    width: 30%;
+    padding: 15px;
+    font-size: 14px;
+    line-height: 1.8;
+}
+
+.kbx-bot-shortcode-template-03 .kbx-bot-container {
+    width: 40%;
+    background-color: #f6f6fc;
+}
+
+.kbx-bot-container {
+    box-shadow: 0 0 50px rgba(102, 122, 255, 0.50);
+}
+
+/***************************************************************************************************
+2. Kbx bot Message container
+****************************************************************************************************/
+.kbx-bot-header {
+    background: #667aff;
+    border-radius: 0 !important;
+}
+
+.kbx-bot-header h3 {
+    color: #ffffff;
+    font-size: 18px !important;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 1px;
+
+}
+
+.kbx-bot-content {
+
+}
+
+.kbx-bot-comment-loader {
+    margin: 0 auto;
+    display: block;
+}
+
+ul.kbx-bot-messages-container > li {
+    margin-bottom: 10px;
+    padding-top: 30px;
+}
+
+ul.kbx-bot-messages-container > li.kbx-bot-msg {
+    padding-left: 35px;
+}
+
+ul.kbx-bot-messages-container > li.kbx-bot-user-msg {
+    padding-right: 35px;
+}
+
+ul.kbx-bot-messages-container > li:first-child {
+    padding: 0;
+}
+
+ul.kbx-bot-messages-container > li > .kbx-bot-avatar {
+    position: absolute;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 40px;
+    height: 40px;
+}
+
+ul.kbx-bot-messages-container > li.kbx-bot-msg .kbx-bot-avatar {
+    top: 0;
+    left: 0;
+}
+
+ul.kbx-bot-messages-container > li.kbx-bot-user-msg .kbx-bot-avatar {
+    top: 0;
+    right: 0;
+}
+
+ul.kbx-bot-messages-container > li > .kbx-bot-paragraph {
+    padding: 10px;
+    max-width: 90%;
+    border: 1px solid #ebebeb;
+    color: #3e3d3d;
+}
+
+ul.kbx-bot-messages-container li:first-child.kbx-bot-msg .kbx-bot-paragraph {
+    box-shadow: none;
+}
+
+ul.kbx-bot-messages-container > li.kbx-bot-user-msg .kbx-bot-paragraph {
+    text-align: right;
+    float: right;
+    border-radius: 10px 10px 10px 10px;
+
+}
+
+ul.kbx-bot-messages-container > li.kbx-bot-msg .kbx-bot-paragraph {
+
+    border-radius: 10px 10px 10px 10px;
+}
+
+/********* Footer ****************/
+.kbx-bot-footer {
+    border-radius: 5px;
+}
+
+/******Message Editor ***********/
+
+.kbx-bot-editor-area {
+    border-top: 1px solid #deebe9;
+    border-radius: 0 0 5px 5px;
+    margin: 0;
+    padding: 6px 15px;
+}
+
+.kbx-bot-editor-area input {
+    display: inline-block;
+    border: none;
+    height: 50px;
+    font-family: 'Montserrat', sans-serif;
+    width: 80%;
+    background-color: transparent;
+    color: #565867;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+}
+
+.kbx-bot-editor-area input:focus {
+    outline: none;
+    border: none;
+    box-shadow: none;
+    background: none;
+}
+
+.kbx-bot-editor-area input::-webkit-input-placeholder, .kbx-bot-editor-area input::-moz-placeholder, .kbx-bot-editor-area input:-ms-input-placeholder, .kbx-bot-editor-area input:-moz-placeholder {
+    color: #565867;
+}
+
+.kbx-bot-editor-area button {
+    display: inline-block;
+    height: 50px;
+    background: transparent url("../../images/send-button.png") no-repeat center;
+    color: transparent;
+    width: 20%;
+    cursor: pointer;
+    margin: 0 0 0 -8px;
+    padding: 0;
+    border: none;
+    outline: none;
+}
+
+.kbx-bot-editor-area button:hover {
+    background: transparent url("../../images/send-button.png") no-repeat center;
+}
+
+.kbx-bot-editor-area button:focus {
+    outline: none;
+    border: none;
+    box-shadow: none;
+    background: transparent url("../../images/send-button.png") no-repeat center;
+}
+
+/*******************************************************************************************
+sidebar element
+*******************************************************************************************/
+
+/***********Widget*************/
+.kbx-bot-widget {
+    margin-bottom: 20px;
+}
+
+.kbx-bot-widget:last-child {
+    margin-bottom: 0;
+}
+
+.kbx-bot-widget h3.kbx-bot-widget-title {
+    color: #999999;
+    margin: 7px 0 10px;
+    padding: 0 0 5px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 1px;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+/************Agent***********/
+.kbx-bot-agent {
+    text-align: center;
+}
+
+.kbx-bot-agent img {
+    border: 1px solid #F5F5F5;
+    box-shadow: none !important;
+    padding: 3px;
+}
+
+h3.kbx-bot-agent-name {
+    color: #999999;
+    margin: 0 0 10px !important;
+    padding: 0 !important;
+    font-size: 14px !important;
+    font-weight: 700;
+}
+
+.kbx-bot-agent-name {
+    margin: 5px 0;
+    padding: 0;
+    color: #999999;
+}
+
+.kbx-bot-widget ul.kbx-bot-products, .kbx-bot-products-area {
+    margin: 0 !important;
+}
+
+/**********************************
+Reset
+ **********************************/
+/********* Order List *******/
+
+.kbx-bot-cart-header {
+    background-color: #F5F5F5;
+}
+
+.kbx-bot-cart-single {
+    background-color: rgba(245, 245, 245, 0.1);
+    border-bottom: 1px solid #dddddd;
+}
+
+.kbx-bot-cart-single:nth-child(2n+1) {
+    background-color: rgba(245, 245, 245, 0.5);
+}
+
+.kbx-bot-cart-footer div a {
+    text-decoration: none;
+    background: #667aff;
+    color: #ffffff !important;
+}
+
+.kbx-bot-cart-footer div a:hover, .kbx-bot-cart-footer div:last-child a {
+    background: #4e60d8 !important;
+}
+
+.kbx-bot-cart-container div p {
+    text-align: left !important;
+}
+
+/****** Product Details*******/
+.kbx-bot-product-details {
+    box-shadow: 0 0 10px #ccc;
+    background-color: #f5f5f5;
+}
+
+.kbx-bot-product-cart-button input[type="button"], #kbx-bot-loadmore {
+    border: 1px solid #667aff;
+    background: #667aff;
+    color: #ffffff;
+    box-shadow: 0 0 2px #999;
+}
+
+.kbx-bot-product-cart-button input[type="button"]:hover, #kbx-bot-loadmore:hover {
+    background: #4e60d8;
+    color: #ffffff;
+}
+
+#kbx-bot-shortcode-template-container a.kbx-bot-product-close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #667aff url("../../../assets/images/woo-boat-product-close-icon.png") no-repeat center;
+    background-size: 27px;
+    width: 50px;
+    height: 50px;
+}
+
+#kbx-bot-shortcode-template-container a.kbx-bot-product-close:hover {
+    background-color: red;
+}
+
+#kbx-bot-shortcode-template-container .kbx-bot-product-details {
+    box-shadow: none;
+}
+
+#kbx-bot-shortcode-template-container h2#kbx-bot-product-title {
+    margin: 0 0 10px !important;
+    color: #999999;
+    padding: 0 0 5px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 1px;
+}
+
+#kbx-bot-shortcode-template-container .kbx-bot-product-price {
+    color: #667aff;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 1024px) {
+    .kbx-bot-left-sidebar {
+        display: none !important;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .kbx-bot-shortcode-template-03 {
+        display: block;
+    }
+
+    .kbx-bot-shortcode-template-03 .kbx-bot-shortcode-row {
+        display: block;
+    }
+
+    .kbx-bot-shortcode-template-03 .kbx-bot-container, .kbx-bot-shortcode-template-03 .kbx-bot-sidebar {
+        display: block !important;
+        width: 100% !important;
+        margin-bottom: 30px;
+    }
+}
